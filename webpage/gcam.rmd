@@ -35,5 +35,6 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 * [gcam_training_session1.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_training_session1.pptx)
-
-
+* [gcam_training_session2.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_training_session2.pptx)
+* [gcam_training_session3.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_training_session3.pptx)
+* [gcam_training_session4.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_training_session4.pptx)
