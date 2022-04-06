@@ -7,6 +7,8 @@ pagetitle: gcam_training
 <img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
 </div>
 
+[![docs](https://github.com/JGCRI/gcam_training/actions/workflows/docs.yaml/badge.svg)](https://github.com/JGCRI/gcam_training/actions/workflows/docs.yaml)
+
 <!-------------------------->
 <!-------------------------->
 ### **GCAM Eco-System Training Materials & Guides**
