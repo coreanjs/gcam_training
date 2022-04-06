@@ -20,6 +20,6 @@ knitr::include_graphics("images/gcam.png")
 ```
 </a>
 
-This webpage together with its associated github repository (https://github.com/JGCRI/gcam_training) is meant to serve as a single location to host traning materials and guides for GCAM and GCAM Eco-system tools. The materials here are meant to supplement the official documentation for GCAM that can be found at http://jgcri.github.io/gcam-doc/.
+This webpage together with its associated github repository (https://github.com/JGCRI/gcam_training) is meant to serve as a single location to host training materials and guides for GCAM and GCAM Eco-system tools. The materials here are meant to supplement the official documentation for GCAM that can be found at http://jgcri.github.io/gcam-doc/.
 
 <p align="center"> <img src="images/divider.png"></p>
