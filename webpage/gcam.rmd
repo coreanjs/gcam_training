@@ -1,0 +1,35 @@
+---
+pagetitle: gcam_training
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+    #toc_depth: 3
+    #number_sections: false
+    theme: cosmo
+    #inverse: true
+---
+
+<div class="header_logo">
+<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
+<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
+</div>
+
+
+<!-------------------------->
+# Videos
+<!-------------------------->
+
+## GCAM 5.4 overview
+
+![](https://www.youtube.com/watch?v=13tBgM_JWXc){width=100%}
+
+
+<!-------------------------->
+# Presentations
+<!-------------------------->
+
+## GCAM Training Session 1
+
+![gcam_training_session1.pptx](https://github.com/JGCRI/gcam_training/presentations/gcam_training_session1.pptx)

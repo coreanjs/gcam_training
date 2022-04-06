@@ -1,0 +1,25 @@
+---
+pagetitle: gcam_training
+---
+
+<div class="header_logo">
+<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
+<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
+</div>
+
+<!-------------------------->
+<!-------------------------->
+### **GCAM Eco-System Training Materials & Guides**
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="images/divider.png"></p>
+
+<a href = "metarepo.html">
+```{r, echo=FALSE, out.width="50%", fig.align='center'}
+knitr::include_graphics("images/gcam.png")
+```
+</a>
+
+This webpage together with its associated github repository (https://github.com/JGCRI/gcam_training) is meant to serve as a single location to host trianing materials and guides for GCAM and GCAM Eco-system tools. The materials here are meant to supplement the official documentation for GCAM that can be found at http://jgcri.github.io/gcam-doc/.
+
+<p align="center"> <img src="images/divider.png"></p>
