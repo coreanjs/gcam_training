@@ -54,7 +54,7 @@ output:
 
 ### Using shareweights
 
-### Using the Floor/Ceiling/Constraint approach
+### Using constraints
 
 * **[example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml)**
 
@@ -65,6 +65,7 @@ The electricity generation mix can also be adjusted by setting floors or ceiling
 - `min-price`: Additionally, the `min-price` tag in the example xml  below represents the price below which GCAM will consider a market solved (0 by default). It is possible to force generation to exactly match the constraint values rather than setting floors or ceilings by setting min-price to a large negative value in each year (e.g., <min-price year=”2020”>-10000</min-price>)
 
 Steps:
+
 1. Create a folder in the input directory (`./gcam-core/input`) of gcam and name it something appropriate e.g.`addons` so you now have an empty folder `./gcam-core/input/addons`.
 2. Download the example xml file: [example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml) and save in `./gcam-core/input/addons`
 3. In the file change the `region` from `Thailand` to whatever region you what to adjust the electricity mix for. 
