@@ -48,7 +48,7 @@ output:
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-## Adjusing population & GDP
+## Adjusting population & GDP
 
 ## Adjusting electricity mix
 
