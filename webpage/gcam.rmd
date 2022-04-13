@@ -59,7 +59,7 @@ output:
 * **[example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml)**
 * Relevant official GCAM Documentation link: http://jgcri.github.io/gcam-doc/policies_examples.html
 
-The electricity generation mix can also be adjusted by setting floors or ceilings using a subsidy or tax policy. Constraints are set for each year within the subsidy or tax policy, and the policy must be passed to each individual `subsector` and `stub-technology` that you want to adjust. A list of the `subsector` and `stub-technology` available can be found in `.\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv`.
+The electricity generation mix can also be adjusted by setting floors or ceilings using a subsidy or tax policy. Constraints are set for each year within the subsidy or tax policy, and the policy must be passed to each individual `subsector` and `stub-technology` that you want to adjust. A list of the `subsector` and `stub-technology` available can be found in `.gcam-core\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv`.
 
 - Subsidy Policy: With a subsidy policy, a constraint can be set that acts as a generation floor for a given technology or set of technologies; i.e. electricity generation for that technology or total generation for the set of technologies will be at least as high as the constraint. 
 - Tax Policy: Setting a constraint with a tax policy will have the opposite effect, ensuring that total generation for a technology or set of technologies does not exceed the constraint. 
