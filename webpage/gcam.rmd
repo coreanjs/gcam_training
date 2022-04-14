@@ -32,10 +32,14 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 ## General Overview
+***
 
 * [gcam_overview.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_overview.pptx)
 
+<br>
+
 ## GCAM 5.4
+***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/13tBgM_JWXc?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -49,8 +53,10 @@ output:
 <p align="center"> <img src="images/divider.png"></p>
 
 ## Adjusting population & GDP
+***
 
 ## Adjusting electricity mix
+***
 
 ### Using shareweights
 
@@ -65,24 +71,35 @@ The electricity generation mix can also be adjusted by setting floors or ceiling
 - Tax Policy: Setting a constraint with a tax policy will have the opposite effect, ensuring that total generation for a technology or set of technologies does not exceed the constraint. 
 - `min-price`: Additionally, the `min-price` tag in the example xml  below represents the price below which GCAM will consider a market solved (0 by default). It is possible to force generation to exactly match the constraint values rather than setting floors or ceilings by setting min-price to a large negative value in each year (e.g., <min-price year=”2020”>-10000</min-price>)
 
-Steps:
-
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Steps</b></p>
+<p style='margin-left:1em;'>
 1. Create a folder in the input directory (`./gcam-core/input`) of gcam and name it something appropriate e.g.`addons` so you now have an empty folder `./gcam-core/input/addons`.
 2. Download the example xml file: [example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml) and save in `./gcam-core/input/addons`
 3. In the file change the `region`  and `market` from `Thailand` to whatever region you want to adjust the electricity mix for. 
 4. Add a `<policy-portfolio-standard name` for each `subsector` from `.\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv` (includes: coal gas, refined liquids, biomass, nuclear, wind, solar, geothermal, rooftop_pv, wind)
 5. Adjust the `min-price` and the `constraint` for each year to the values desired.
 6. After declaring all your constraints for each subsector go towards the end of the file and assign the corresponding policy to each `subsector` and `studb-technology` (full list here: `.\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv`)
-6. Save the xml and then point to it in your configuration file by adding the line: `<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`.
+6. Save the xml and then point to it in your configuration file by adding the line: <p style='font-size:0.8em'>`<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`</p>
+</p>
+<p style='margin-bottom:1em; margin-left:1em; text-align:left; font-family:Georgia'> 
+<b>Note: </b> 
+<i>To use a `tax` policy repeat the steps but replace `subsidy` in the `<policyType>` argument in `./gcam-core/input/addons/example_adjust_electricity_constraint.xml` with `tax`.</i>
+</p></span>
+</div>
 
-**Note: To use a `tax` policy repeat the steps but replace `subsidy` in the `<policyType>` argument in `./gcam-core/input/addons/example_adjust_electricity_constraint.xml` with `tax`.**
-
+<br>
 
 ## Adjusting transport mix
+***
 
 ## Adjusting buildings
+***
 
 ## Emission constraints & pathways
+***
 
 <br>
 
@@ -106,6 +123,7 @@ Steps:
 <p align="center"> <img src="images/divider.png"></p>
 
 ## Required packages and versions
+***
 
 renv.lock file and instrcutions on how to run to get the correct versions.
 
@@ -117,6 +135,7 @@ renv.lock file and instrcutions on how to run to get the correct versions.
 <p align="center"> <img src="images/divider.png"></p>
 
 ## Create XML from csv
+***
 
 <br>
 
@@ -126,12 +145,16 @@ renv.lock file and instrcutions on how to run to get the correct versions.
 <p align="center"> <img src="images/divider.png"></p>
 
 ## rgcam
+***
 
 ## modelInterface
+***
 
 ## gcamextractor
+***
 
 ## Argus
+***
 
 <!-------------------------->
 # Essential Git Commands
