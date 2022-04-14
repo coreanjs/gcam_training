@@ -76,13 +76,14 @@ The electricity generation mix can also be adjusted by setting floors or ceiling
 <p style='margin-top:1em; text-align:center'>
 <b>Steps</b></p>
 <p style='margin-left:1em;'>
-1. Create a folder in the input directory (`./gcam-core/input`) of gcam and name it something appropriate e.g.`addons` so you now have an empty folder `./gcam-core/input/addons`.
-2. Download the example xml file: [example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml) and save in `./gcam-core/input/addons`
+1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
+2. Download the example xml file [example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml) to the folder.
 3. In the file change the `region`  and `market` from `Thailand` to whatever region you want to adjust the electricity mix for. 
-4. Add a `<policy-portfolio-standard name` for each `subsector` from `.\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv` (includes: coal gas, refined liquids, biomass, nuclear, wind, solar, geothermal, rooftop_pv, wind)
+4. Add a `policy-portfolio-standard name` for your chosen `subsector`
 5. Adjust the `min-price` and the `constraint` for each year to the values desired.
-6. After declaring all your constraints for each subsector go towards the end of the file and assign the corresponding policy to each `subsector` and `studb-technology` (full list here: `.\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv`)
-6. Save the xml and then point to it in your configuration file by adding the line: <p style='font-size:0.8em'>`<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`</p>
+6. Lower down in the file assign the corresponding `policy-portfolio-standard name` to each chosen `subsector`/`stub-technology`
+6. Save the xml and then point to it in your configuration file by adding the line: 
+<p style='font-size:0.8em'>`<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`</p>
 </p>
 <p style='margin-bottom:1em; margin-left:1em; text-align:left; font-family:Georgia'> 
 <b>Note: </b> 
