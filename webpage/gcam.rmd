@@ -27,23 +27,28 @@ output:
 <br>
 
 <!-------------------------->
-# GCAM Overview
+# GCAM Tutorials
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
-
-## General Overview
-***
-
-* [gcam_overview.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_overview.pptx)
 
 <br>
 
 ## GCAM 5.4
 ***
 
+### Overview
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/13tBgM_JWXc?rel=0" frameborder="0" allowfullscreen></iframe>
 
-* [gcam54_walkthrough.pptx](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_walkthrough.pptx)
+<br>
+
+<iframe src="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_overview.pdf?raw=true" width="100%" height="500px"></iframe>
+
+<br>
+
+### Walkthrough
+
+* [gcam54_walkthrough.pdf](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_walkthrough.pdf)
 
 <br>
 
@@ -82,7 +87,7 @@ The electricity generation mix can also be adjusted by setting floors or ceiling
 4. Add a `policy-portfolio-standard name` for your chosen `subsector`
 5. Adjust the `min-price` and the `constraint` for each year to the values desired.
 6. Lower down in the file assign the corresponding `policy-portfolio-standard name` to each chosen `subsector`/`stub-technology`
-6. Save the xml and then point to it in your configuration file by adding the line: 
+7. Save the xml and then point to it in your configuration file by adding the line: 
 <p style='font-size:0.8em'>`<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`</p>
 </p>
 <p style='margin-bottom:1em; margin-left:1em; text-align:left; font-family:Georgia'> 
@@ -158,6 +163,24 @@ renv.lock file and instrcutions on how to run to get the correct versions.
 ***
 
 <!-------------------------->
-# Essential Git Commands
+# Git
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
+
+## From Stash(Bitbucket) to Github
+
+This section discussed how to push a development branch of GCAM from stash onto github.
+
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>From Stash to Github</b></p>
+<p style='margin-left:1em;'>
+1. Create a new repository in github: https://github.com/new
+2. Give it a relevant name such as `gcam_v5p4_projectx`
+3. Copy the clone address of the new repo e.g. https://github.com/USERNAME/gcam_v5p4_projectx.git
+4. Push your local stash branch changes up to this branch: 
+<p>`git push -u origin https://github.com/USERNAME/gcam_v5p4_projectx.git`</p>
+5. Continue to work stash branch as usual and also push up latest changes to github as above.
+</p></span>
+</div>

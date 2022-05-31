@@ -14,7 +14,7 @@ pagetitle: gcam_training
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-<a href = "metarepo.html">
+<a href = "gcam.html">
 ```{r, echo=FALSE, out.width="50%", fig.align='center'}
 knitr::include_graphics("images/gcam.png")
 ```
