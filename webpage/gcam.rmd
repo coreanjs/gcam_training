@@ -42,15 +42,13 @@ output:
 
 <br>
 
-<iframe src="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_overview.pdf" width="100%" height="500px"></iframe>
-
-<a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_overview.pdf" target="_blank">https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_overview.pdf.</a>
+* <a href="gcam54_overview.pdf" target="_blank">https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_overview.pdf</a>
 
 <br>
 
 ### Walkthrough
 
-* [gcam54_walkthrough.pdf](https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_walkthrough.pdf)
+* <a href="gcam54_overview.pdf" target="_blank">https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam54_walkthrough.pdf</a>
 
 <br>
 
