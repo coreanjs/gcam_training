@@ -23,7 +23,7 @@ output:
 
 <br>
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+```{r key links table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
 data.frame(
@@ -48,7 +48,7 @@ data.frame(
 ## GCAM 5.4
 ***
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+```{r presentation links table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
 dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf",
@@ -91,7 +91,7 @@ data.frame(
 ## Transport Mix - Shareweights
 ***
 
-```{r, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+```{r shareweight files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
 dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/subsector_shareweights_ref.csv",
@@ -114,6 +114,7 @@ data.frame(
   row_spec(0, background = "#2A2A2A", color = "white")
 ```
 
+
 <div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <h3 style='text-align:center; font-size:24px'>
@@ -132,7 +133,24 @@ In this example the goal is to match Thailand's 2040 freight service output by t
 
 <br>
 
+
 <div class="warning" style='background-color:#E0F7C8; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Background</b>
+</h3>
+
+<p style='margin-left:1em;'>
+
+
+</p>
+</span>
+</div>
+
+<br>
+
+
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
 <h3 style='text-align:center; font-size:24px'>
@@ -150,7 +168,8 @@ In this example we gradually decrease the shareweight for road through 2040 and 
 
 <br>
 
-<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+
+<div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <h3 style='text-align:center; font-size:24px'>
 <b>GCAM Implementation</b>
