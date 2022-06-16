@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="Indonesia">
+            <supplysector name="trn_pass">
+                <tranSubsector name="Passenger Rail">
+                    <share-weight year="2050">0.01</share-weight>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2050">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <interpolation-rule apply-to="share-weight" from-year="2050" to-year="2100">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </tranSubsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
