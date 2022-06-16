@@ -364,8 +364,10 @@ div.tocify {
 <p><img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;"> <img src="images/logo_pnnl_white.png" style="float:right;height:40px;"></p>
 </div>
 <!-------------------------->
+<!-------------------------->
 <div id="key-links" class="section level1">
 <h1>Key Links</h1>
+<!-------------------------->
 <!-------------------------->
 <p align="center">
 <img src="images/divider.png">
@@ -403,9 +405,11 @@ FAQs, issues and discussions
 </table>
 <p><br></p>
 <!-------------------------->
+<!-------------------------->
 </div>
 <div id="tutorials" class="section level1">
 <h1>Tutorials</h1>
+<!-------------------------->
 <!-------------------------->
 <p align="center">
 <img src="images/divider.png">
@@ -473,10 +477,12 @@ What’s new in GCAM 5.4?
 </div>
 <p><br></p>
 <!-------------------------->
+<!-------------------------->
 </div>
 </div>
 <div id="scenario-adjustments" class="section level1">
 <h1>Scenario Adjustments</h1>
+<!-------------------------->
 <!-------------------------->
 <p align="center">
 <img src="images/divider.png">
@@ -545,46 +551,38 @@ Linear interpolation from default 2015 value (1) to 0.55 in 2040 for freight roa
 </tr>
 </tbody>
 </table>
+<!-------------------------->
+<!----------Goal------------>
+<!-------------------------->
 <div class="warning" style="background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;">
 <span>
 <h3 style="text-align:center; font-size:24px">
 <b>Goal</b>
 </h3>
 <p style="margin-left:1em;">
-<p>In this example the goal is to match Thailand’s 2040 freight service output by technology targets. Thailand’s 2040 goals are:</p>
-<ul>
-<li>Shipping to account for 19% of freight service output</li>
-<li>Rail to account for 10% of freight service output.</li>
-</ul>
+<p>The goal of this example is to create a GCAM scenario that represents Indonesia’s plans to increase passenger rail infrastructure. Indonesia’s plans include major intercity and urban railway projects and targets to increase railway shares in passenger and freight transport; however, in GCAM’s reference scenario, the share of rail in passenger transport does not increase through the century. The goal is to represent the rail infrastructure projects by increasing passenger rail shares.</p>
 </p>
 <p></span></p>
 </div>
 <p><br></p>
-<div class="warning" style="background-color:#E0F7C8; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;">
-<span>
-<h3 style="text-align:center; font-size:24px">
-<b>Background</b>
-</h3>
-<p style="margin-left:1em;">
-</p>
-<p></span></p>
-</div>
-<p><br></p>
+<!-------------------------->
+<!--------Approach---------->
+<!-------------------------->
 <div class="warning" style="background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;">
 <p><span></p>
 <h3 style="text-align:center; font-size:24px">
 <b>Approach</b>
 </h3>
 <p style="margin-left:1em;">
-<p>In this example we gradually decrease the shareweight for road through 2040 and also gradually increase the shareweight for rail (only decreasing the road shareweight results in a ratio of ship to rail that is too high). From the reference shareweights file (subsector_shareweights_ref.csv), we see that within the <code>trn_freight</code> sector, the <code>road</code> subsector has a shareweight of 1 throughout all periods and the <code>Freight Rail</code> subsector has a shareweight of 0.001342 throughout all periods. Through experimentation, we found that linearly increasing/decreasing shareweights to the following values in 2040 produces the desired outcome (Shipping to account for 19% and Rail to account for 10% of freight service output):</p>
-<ul>
-<li>Decrease <code>road</code> shareweight from 1 in 2015 to 0.55 in 2040</li>
-<li>Increase <code>Freight Rail</code> shareweight from 0.0001342 in 2015 to 0.0034 in 2040</li>
-</ul>
+<p>Since infrastructure development is a non-cost impact on rail transport, we can use shareweights to represent these impacts. For more information on shareweights and when it is and isn’t appropriate to modify them, see [link to shareweights page].</p>
+<p>Share weights are calibration parameters and not directly related to any “real-world” value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. From the Model Interface “transport subsector share-weights” query, we see that the passenger rail share weight in Indonesia is 0.004 for all future periods. To represent infrastructure development through mid-century, we could gradually increase the share weight to 0.01 in 2050 and then keep it constant from 2050 to 2100.</p>
 </p>
 <p></span></p>
 </div>
 <p><br></p>
+<!-------------------------->
+<!---GCAM Implementation---->
+<!-------------------------->
 <div class="warning" style="background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;">
 <span>
 <h3 style="text-align:center; font-size:24px">
@@ -593,30 +591,29 @@ Linear interpolation from default 2015 value (1) to 0.55 in 2040 for freight roa
 <p style="margin-left:1em;">
 <ol style="list-style-type: decimal">
 <li>Create a folder in the input directory eg. <code>./gcam-core/input/addons</code>.</li>
-<li>Download the example xml file <a href="https://github.com/JGCRI/gcam_training/blob/main/examples/freight_rail_0034_2040_lin.xml">freight_rail_0034_2040_lin.xml</a> to the folder.</li>
-<li>Download the example xml file <a href="https://github.com/JGCRI/gcam_training/blob/main/examples/freight_road_55_2040_lin.xml">freight_road_55_2040_lin.xml</a> to the folder.</li>
-<li>Adjust the following in the appropriate <code>tranSubsector</code> tag in each xml:</li>
+<li>Download the example xml file <a href="https://github.com/JGCRI/gcam_training/blob/main/examples/pass_rail_shrwt_lin_2050_fixed_2100.xml">pass_rail_shrwt_lin_2050_fixed_2100</a> to the folder.</li>
+<li>Adjust the following in the appropriate <code>tranSubsector</code> tag in the XML:</li>
 </ol>
 </p>
 <ul style="margin-left:4em; text-align:left;">
 <li>
-<code>share-weight</code> for year 2040
+<code>share-weight</code> for year 2050
 </li>
 <li>
-The interpolation rule from 2015 to 2040 (linear)
+The interpolation rule from 2015 to 2050 (linear)
 </li>
 <li>
-The interpolation rule from 2040 to 2075 (fixed)
+The interpolation rule from 2050 to 2100 (fixed)
 </li>
 </ul>
 <p style="margin-bottom:1em; margin-left:1em; text-align:center;">
-<b>Example xml structure</b> <br> <img src="images/adjust_transport_mix_shareweight_eg_xml_structure.png"> <i>Note: The first interpolation rule includes delete=“1” in order to override all of the previous (default) interpolation rules.</i>
+<b>Example xml structure</b> <br> <img src="images/adjust_transport_mix_shareweight_eg_xml_structure2.png"> <i>Note: The first interpolation rule must include delete=“1” in order to override all of the previous (default) interpolation rules.</i>
 </p>
 <p style="margin-left:1em;">
 <ol start="7" style="list-style-type: decimal">
 <li>Save the xml and then point to it in your configuration file by adding the line:
 <p style='font-size:0.8em'>
-<code>&lt;Value name = "adjust_trans_freight_rail_0034_2040_lin"&gt;../gcam-core/input/addons/freight_rail_0034_2040_lin.xml&lt;/Value&gt;</code> <code>&lt;Value name = "adjust_trans_freight_road_55_2040_lin"&gt;../gcam-core/input/addons/freight_road_55_2040_lin.xml&lt;/Value&gt;</code></li>
+<code>&lt;Value name = "adjust_pass_rail_shrwt"&gt;../gcam-core/input/addons/pass_rail_shrwt_lin_2050_fixed_2100.xml&lt;/Value&gt;</code></li>
 </ol>
 </p>
 </p>
