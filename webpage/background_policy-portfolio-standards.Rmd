@@ -1,0 +1,17 @@
+<!--------------------------------------------->
+<!---Background - Policy portfolio standards--->
+<!--------------------------------------------->
+
+<div class="warning" style='background-color:#EFFFC9; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+
+<h3 style='text-align:center; font-size:24px'>
+<b>Background - Policy portfolio standards</b></h3>
+
+<p style='margin-left:1em;'>
+A `policy-portfolio-standard` in GCAM is a policy that can be used to implement taxes, subsidies, floors, ceilings, and constraints. Taxes and subsidies can be specified when the exact amount to be added or subtracted to the price is known. However, a `policy-portfolio-standard` can also contain a `constraint`, which acts as either a floor or ceiling for the technology or technologies included. Exact constraints can also be implemented. See the [GCAM Policy Examples](https://jgcri.github.io/gcam-doc/policies_examples.html) documentation for more information on how to implement these options.
+</p>
+</span>
+</div>
+
+<br>

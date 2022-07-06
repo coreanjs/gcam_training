@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="Indonesia">
+
+         <policy-portfolio-standard name="Wind-Generation-Floor">
+            <policyType>subsidy</policyType>
+            <market>Indonesia</market>
+	    <min-price year="2025">0</min-price>
+	    <min-price year="2030">0</min-price>
+	    <min-price year="2035">0</min-price>
+	    <min-price year="2040">0</min-price>
+            
+            <constraint year="2025">0.015</constraint>
+            <constraint year="2030">0.040</constraint>
+            <constraint year="2035">0.065</constraint>
+            <constraint year="2040">0.090</constraint>
+	 </policy-portfolio-standard>
+
+         <policy-portfolio-standard name="Solar-Generation-Floor">
+            <policyType>subsidy</policyType>
+            <market>Indonesia</market>
+	    <min-price year="2025">0</min-price>
+	    <min-price year="2030">0</min-price>
+	    <min-price year="2035">0</min-price>
+	    <min-price year="2040">0</min-price>
+            
+            <constraint year="2025">0.10</constraint>
+            <constraint year="2030">0.25</constraint>
+            <constraint year="2035">0.40</constraint>
+            <constraint year="2040">0.55</constraint>
+	 </policy-portfolio-standard>
+
+	 <policy-portfolio-standard name="Coal-Generation-Ceiling">
+            <policyType>tax</policyType>
+            <market>Indonesia</market>
+	    <min-price year="2025">0</min-price>
+	    <min-price year="2030">0</min-price>
+	    <min-price year="2035">0</min-price>
+	    <min-price year="2040">0</min-price>
+            
+            <constraint year="2025">0.75</constraint>
+            <constraint year="2030">0.90</constraint>
+            <constraint year="2035">1.15</constraint>
+            <constraint year="2040">1.30</constraint>
+	 </policy-portfolio-standard>
+
+      </region>
+   </world>
+</scenario>
