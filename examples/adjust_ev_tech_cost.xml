@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="Indonesia">
+            <supplysector name="trn_pass_road_LDV_4W">
+                <tranSubsector name="Car">
+                    <stub-technology name="BEV">
+                        <period year="2020">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.3004</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.290602</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.281123</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.271953</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.263083</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.254501</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.2462</input-cost>
+                            </minicam-non-energy-input>
+                        </period> 
+                    </stub-technology> 
+                </tranSubsector>
+                <tranSubsector name="Large Car and Truck">
+                    <stub-technology name="BEV">
+                        <period year="2020">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.5262</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.507957</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.490346</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.473345</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.456935</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.441093</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.4258</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology> 
+                </tranSubsector>
+                <tranSubsector name="Mini Car">
+                    <stub-technology name="BEV">
+                        <period year="2020">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.1403</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2025">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.133299</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.126648</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.120329</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2040">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.114324</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2045">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.10862</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2050">
+                            <minicam-non-energy-input name="non-energy">
+                                <input-cost>0.1032</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </stub-technology> 
+                </tranSubsector>
+            </supplysector>
+        </region>
+
+    </world>
+</scenario>

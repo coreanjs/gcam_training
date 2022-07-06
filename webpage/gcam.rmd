@@ -94,24 +94,358 @@ data.frame(
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-## Transport Mix - Shareweights
+## Electricity Generation Mix - FLoors, ceilings, and constraints
+***
+
+```{r electricity generation files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/electricity_generation_constraints.xml",
+            "https://github.com/JGCRI/gcam_training/blob/main/examples/electricity_generation_constraint_techs.xml")
+
+data.frame(
+  "Example addon XMLs" = c("indonesia_electricity_generation_constraints.xml",
+                           "indonesia_electricity_generation_techs.xml"),
+  Description = c("Setting constraints: floors for wind and solar; ceiling for coal",
+                  "Applying constraints to electricity generation technologies")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
+
+<!-------------------------->
+<!----------Goal------------>
+<!-------------------------->
+
+<div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Goal</b>
+</h3>
+
+<p style='margin-left:1em;'>
+This example demonstrates how to set floors and ceilings for electricity generation by fuel in GCAM. We will set floors (minimum required generation amounts) for wind and solar and a ceiling (maximum generation amount) for coal from 2025 through 2040.
+
+</p>
+</span>
+</div>
+
+<br>
+
+
+<!-------------------------->
+<!--------Approach---------->
+<!-------------------------->
+
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+
+<h3 style='text-align:center; font-size:24px'>
+<b>Approach</b></h3>
+
+<p style='margin-left:1em;'>
+We can use a `policy-portfolio-standard` to set floors and ceilings for each fuel. This will decrease (increase) the cost of the electricity generation technologies until the floor (ceiling) is satisfied. 
+
+</p>
+</span>
+</div>
+
+<br>
+
+
+<!-------------------------->
+<!--------Background-------->
+<!-------------------------->
+
+```{r child = 'background_policy-portfolio-standards.rmd'}
+```
+
+
+<!-------------------------->
+<!---GCAM Implementation---->
+<!-------------------------->
+
+<div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>GCAM Implementation</b>
+</h3>
+
+<p style='margin-left:1em;'>
+1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
+2. Download the example xml files [electricity_generation_constraints.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/indonesia_electricity_generation_constraints.xml) and [electricity_generation_constraint_techs.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/indonesia_electricity_generation_techs.xml) to the folder.
+4. Within each `policy-portfolio-standard` tag in the first XML, adjust the following:
+</p>
+
+<ul style='margin-left:4em; text-align:left;'>
+  <li>`constraint` for each year in which a floor is desired</li>
+  <li>Set `min-price` to a large negative value for years in which an exact constraint, rather than a floor, is desired</li>
+</ul>
+<p style='margin-left:1em;'>
+5. Within each `supplysector` tag in the second XML, make sure that the corresponding `input-subsidy` is added within each relevant `period` for each `stub-technology` you wish to include in the constraint.
+
+
+<p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
+<b>Example XML structures</b> 
+<br>
+<img src="images/adjust_elec_gen_both.png">
+<i>Note: `min-price` should be set to a large negative number (e.g., -10000) for years in which an exact contraint is desired rather than a floor or ceiling. Otherwise, it can remain at the default (0).</i>
+</p>
+
+
+6. Save the xml and then point to it in your configuration file by adding the line: 
+<p style='font-size:0.8em'>
+`<Value name = "scen">../input/addons//electricity_generation_constraints.xml</Value>`
+`<Value name = "scen">../input/addons//electricity_generation_constraint_techs.xml</Value>`
+
+</p>
+</p>
+
+</span>
+</div>
+
+<br>
+
+## Building Envelope Efficiency
+***
+
+```{r shell files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/buildings_shell_efficiency.xml")
+
+data.frame(
+  "Files Used" = c("buildings_shell_efficiency.xml"),
+  Description = c("Modifies shell conductance to represent enhanced building envelope efficiency improvement")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
+
+<!-------------------------->
+<!----------Goal------------>
+<!-------------------------->
+
+<div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Goal</b>
+</h3>
+
+<p style='margin-left:1em;'>
+This example demonstrates how to modify building envelope efficiencies in GCAM. We will increase efficiency over time, which could be used to represent increasing compliance with the envelope efficiency component of building energy codes. 
+
+</p>
+</span>
+</div>
+
+<br>
+
+
+<!-------------------------->
+<!--------Approach---------->
+<!-------------------------->
+
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+
+<h3 style='text-align:center; font-size:24px'>
+<b>Approach</b></h3>
+We can use GCAM's `shell-conductance` parameter to represent an increase in building envelope efficiency.
+<p style='margin-left:1em;'>
+
+</p>
+
+
+
+</span>
+</div>
+
+<br>
+
+
+<!-------------------------->
+<!--------Background---------->
+<!-------------------------->
+
+```{r child = 'background_coolingDemand.rmd'}
+```
+
+
+<!-------------------------->
+<!---GCAM Implementation---->
+<!-------------------------->
+
+<div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>GCAM Implementation</b>
+</h3>
+
+<p style='margin-left:1em;'>
+1. Create a folder in the input directory: `./gcam-core/input/addons`.
+2. Download the example xml file [indonesia_buildings_shell.xml](https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_buildings_shell_eff_015_018.xml) to the folder.
+4. Within each `gcam-consumer` tag in the XML, specify the desired `shell-conductance` values for each year.
+
+<p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
+<b>Example XML structure</b> 
+<br>
+<img src="images/adjust_shell_eff.png">
+</p>
+
+5. Save the xml and then point to it in your configuration file by adding the line: 
+<p style='font-size:0.8em'>
+`<Value name = "scen">../input/addons/indonesia_buildings_shell.xml</Value>`
+</p>
+
+</span>
+</div>
+
+<br>
+
+<!-------------------------->
+<!------Example Output------>
+<!-------------------------->
+
+<div class="warning" style='background-color:#efe1f5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Example Output</b>
+</h3>
+
+
+<p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
+<br>
+<img src="images/shell_eff_chart.png">
+</p>
+
+
+</span>
+</div>
+
+<br>
+
+## Modifying technology costs - EV Cost Parity
+***
+
+```{r EV cost parity files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/transportation_UCD_CORE.xml",
+            "https://github.com/JGCRI/gcam_training/blob/main/examples/adjust_ev_tech_cost.xml")
+
+data.frame(
+  "Files Used" = c("transportation_UCD_CORE.csv",
+           "adjust_ev_tech_cost.xml"),
+  Description = c("XML containing reference transportation technology costs",
+              "XML for modifying 4-wheel passenger BEV costs to reach BEV-Liquids cost parity in 2050")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
+
+<!-------------------------->
+<!----------Goal------------>
+<!-------------------------->
+
+<div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Goal</b>
+</h3>
+
+<p style='margin-left:1em;'>
+This example demonstrates how to modify non-energy costs of transportation technologies in GCAM. We will decrease costs of 4-wheel passenger BEVs from 2020 to 2050 to represent policies that decrease the costs of EVs.
+
+</p>
+</span>
+</div>
+
+<br>
+
+
+<!-------------------------->
+<!--------Approach---------->
+<!-------------------------->
+
+<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+
+<h3 style='text-align:center; font-size:24px'>
+<b>Approach</b></h3>
+
+<p style='margin-left:1em;'>
+We can use GCAM's `input-cost` parameter, which represents the non-energy costs of a given technology.
+</p>
+
+
+</span>
+</div>
+
+<br>
+
+
+<!--------------------------->
+<!--------Background--------->
+<!--------------------------->
+
+
+
+<!-------------------------->
+<!---GCAM Implementation---->
+<!-------------------------->
+
+<div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>GCAM Implementation</b>
+</h3>
+
+<p style='margin-left:1em;'>
+1. Create a folder in the input directory: `./gcam-core/input/addons`.
+2. Download the example xml file [adjust_ev_cost.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/adjust_ev_tech_cost.xml) to the folder.
+4. In each appropriate `stub-technology` tag (within each `tranSubsector` tag) in the XML, set the desired `input-cost` for each year. Add other `supplysector` tags to include technologies outside of 4-wheel LDVs.
+
+<p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
+<b>Example XML structure</b> 
+<br>
+<img src="images/adjust_ev_cost.png">
+</p>
+
+5. Save the xml and then point to it in your configuration file by adding the line: 
+</p>
+<p style='font-size:0.8em'>
+`<Value name = "scen">../input/addons/adjust_ev_tech_cost.xml</Value>`
+</p>
+</p>
+
+</span>
+</div>
+
+<br>
+
+
+## Transportation Mode Shift - Share weights
 ***
 
 ```{r shareweight files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
-dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/subsector_shareweights_ref.csv",
-            "https://github.com/JGCRI/gcam_training/blob/main/examples/transportation_Subregions_Thailand.xml",
-            "https://github.com/JGCRI/gcam_training/blob/main/examples/freight_rail_0034_2040_lin.xml",
-            "https://github.com/JGCRI/gcam_training/blob/main/examples/freight_road_55_2040_lin.xml")
+dt_url <- c("https://github.com/JGCRI/seasia/blob/main/data/thailand/inputs/thailand_bau_subsector_shareweights.csv",
+            "https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml",
+            "https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_transport_freight_road_55_2040_lin.xml")
 
 data.frame(
   "Files Used" = c("subsector_shareweights_ref.csv",
-           "transportation_Subregions_Thailand.xml",
-           "freight_rail_0034_2040_lin.xml",
-           "freight_road_55_2040_lin.xml"),
-  Description = c("Reference shareweights from Model Interface",
-              "Existing default xml",
+           "thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml",
+           "thailand_policy_subnational_transport_freight_road_55_2040_lin.xml"),
+  Description = c("Reference share weights from Model Interface",
               "Linear interpolation from default 2015 value (0.001342) to 0.0034 in 2040 for freight rail",
               "Linear interpolation from default 2015 value (1) to 0.55 in 2040 for freight road")) %>%
   dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
@@ -132,7 +466,7 @@ data.frame(
 </h3>
 
 <p style='margin-left:1em;'>
-The goal of this example is to create a GCAM scenario that represents Indonesia's plans to increase passenger rail infrastructure. Indonesia's plans include major intercity and urban railway projects and targets to increase railway shares in passenger and freight transport; however, in GCAM's reference scenario, the share of rail in passenger transport does not increase through the century. The goal is to represent the rail infrastructure projects by increasing passenger rail shares.
+The goal of this example is represent Thailand's plans to increase freight rail and ship infrastructure, thereby increasing the share of rail and ship in total freight transportation and decreasing the share of road.
 
 </p>
 </span>
@@ -152,15 +486,25 @@ The goal of this example is to create a GCAM scenario that represents Indonesia'
 <b>Approach</b></h3>
 
 <p style='margin-left:1em;'>
-Since infrastructure development is a non-cost impact on rail transport, we can use shareweights to represent these impacts. For more information on shareweights and when it is and isn't appropriate to modify them, see [link to shareweights page]. 
-
-Share weights are calibration parameters and not directly related to any "real-world" value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. From the Model Interface "transport subsector share-weights" query, we see that the passenger rail share weight in Indonesia is 0.004 for all future periods. To represent infrastructure development through mid-century, we could gradually increase the share weight to 0.01 in 2050 and then keep it constant from 2050 to 2100. 
-
+Since infrastructure development is a non-cost impact on rail transport, we can use share weights to represent these impacts. Share weights are calibration parameters and not directly related to any "real-world" value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. The [subsector_shareweights_ref.csv]("https://github.com/JGCRI/seasia/blob/main/data/thailand/inputs/thailand_bau_subsector_shareweights.csv") file contains the share weights for each transportation mode; the freight rail share weight is 0.001342 for all future periods and the freight road share weight is 1. For this example, we tested a range of share weights and determined that the following modifications had the desired effect: 
 </p>
+<ul style='margin-left:4em; text-align:left;'>
+  <li>Freight rail share weight: linearly increase from default 2015 value (0.001342) to 0.0034 in 2040 and remain at 0.0034 for the rest of the modeling period</li>
+  <li>Freight road share weight: linearly decrease from default 2015 value (1) to 0.55 in 2040 and remain at 0.55 for the rest of the modeling period</li>
+</ul>
+
 </span>
 </div>
 
 <br>
+
+
+<!-------------------------->
+<!--------Background---------->
+<!-------------------------->
+
+```{r child = 'background_shareweights.rmd'}
+```
 
 
 <!-------------------------->
@@ -174,67 +518,33 @@ Share weights are calibration parameters and not directly related to any "real-w
 </h3>
 
 <p style='margin-left:1em;'>
-1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
-2. Download the example xml file [pass_rail_shrwt_lin_2050_fixed_2100](https://github.com/JGCRI/gcam_training/blob/main/examples/pass_rail_shrwt_lin_2050_fixed_2100.xml) to the folder.
-4. Adjust the following in the appropriate `tranSubsector` tag in the XML:
+1. Create a folder in the input directory: `./gcam-core/input/addons`.
+2. Download the example xml files [freight_rail_0034_2040_lin.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/pass_rail_shrwt_lin_2050_fixed_2100.xml) and [freight_road_55_2040_lin.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/freight_road_55_2040_lin.xml) to the folder.
+4. Adjust the following in the appropriate `tranSubsector` tag in the XML as desired:
 </p>
 
 <ul style='margin-left:4em; text-align:left;'>
-  <li>`share-weight` for year 2050</li>
-  <li>The interpolation rule from 2015 to 2050 (linear)</li>
-  <li>The interpolation rule from 2050 to 2100 (fixed)</li>
+  <li>The `share-weight` for year 2040</li>
+  <li>The interpolation rule from 2015 to 2040 (linear)</li>
+  <li>The interpolation rule from 2040 to 2100 (fixed)</li>
 </ul>
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
 <b>Example xml structure</b> 
 <br>
-<img src="images/adjust_transport_mix_shareweight_eg_xml_structure2.png">
+<img src="images/adjust_transport_mix_shareweight_eg_xml_structure.png">
 <i>Note: The first interpolation rule must include delete="1" in order to override all of the previous (default) interpolation rules.</i>
 </p>
 
 <p style='margin-left:1em;'>
-7. Save the xml and then point to it in your configuration file by adding the line: 
+7. Save the xml and then point to it in your configuration file by adding the lines: 
 <p style='font-size:0.8em'>
-`<Value name = "adjust_pass_rail_shrwt">../gcam-core/input/addons/pass_rail_shrwt_lin_2050_fixed_2100.xml</Value>`
-
+`<Value name = "scen">../input/addons/thailand/thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml</Value>`
+`<Value name = "scen">../input/addons/thailand/thailand_policy_subnational_transport_freight_road_55_2040_lin.xml</Value>`
 </p>
 </p>
 
 </span>
-</div>
-
-<br>
-
-## Electricity Mix - Subsidy or Tax
-***
-
-* **[example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml)**
-* Relevant official GCAM Documentation link: http://jgcri.github.io/gcam-doc/policies_examples.html
-
-The electricity generation mix can also be adjusted by setting floors or ceilings using a subsidy or tax policy. Constraints are set for each year within the subsidy or tax policy, and the policy must be passed to each individual `subsector` and `stub-technology` that you want to adjust. A list of the `subsector` and `stub-technology` available can be found in `.gcam-core\input\gcamdata\inst\extdata\energy\A23.globaltech_eff.csv`.
-
-- Subsidy Policy: With a subsidy policy, a constraint can be set that acts as a generation floor for a given technology or set of technologies; i.e. electricity generation for that technology or total generation for the set of technologies will be at least as high as the constraint. 
-- Tax Policy: Setting a constraint with a tax policy will have the opposite effect, ensuring that total generation for a technology or set of technologies does not exceed the constraint. 
-- `min-price`: Additionally, the `min-price` tag in the example xml  below represents the price below which GCAM will consider a market solved (0 by default). It is possible to force generation to exactly match the constraint values rather than setting floors or ceilings by setting min-price to a large negative value in each year (e.g., <min-price year=”2020”>-10000</min-price>)
-
-<div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
-<span>
-<p style='text-align:center'>
-<b>Steps</b></p>
-<p style='margin-left:1em;'>
-1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
-2. Download the example xml file [example_adjust_electricity_constraint.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/example_adjust_electricity_constraint_subsidy.xml) to the folder.
-3. In the file change the `region`  and `market` from `Thailand` to whatever region you want to adjust the electricity mix for. 
-4. Add a `policy-portfolio-standard name` for your chosen `subsector`
-5. Adjust the `min-price` and the `constraint` for each year to the values desired.
-6. Lower down in the file assign the corresponding `policy-portfolio-standard name` to each chosen `subsector`/`stub-technology`
-7. Save the xml and then point to it in your configuration file by adding the line: 
-<p style='font-size:0.8em'>`<Value name = "adjust_elec_mix_subsidy">../gcam-core/input/addons/example_adjust_electricity_constraint.xml</Value>`</p>
-</p>
-<p style='margin-bottom:1em; margin-left:1em; text-align:left; font-family:Georgia'> 
-<b>Note: </b> 
-<i>To use a `tax` policy repeat the steps but replace `subsidy` in the `<policyType>` argument in `./gcam-core/input/addons/example_adjust_electricity_constraint.xml` with `tax`.</i>
-</p></span>
 </div>
 
 <br>
