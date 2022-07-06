@@ -175,7 +175,7 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
-2. Download the example xml files [electricity_generation_constraints.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/indonesia_electricity_generation_constraints.xml) and [electricity_generation_constraint_techs.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/indonesia_electricity_generation_techs.xml) to the folder.
+2. Download the example xml files [electricity_generation_constraints.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/electricity_generation_constraints.xml) and [electricity_generation_constraint_techs.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/electricity_generation_constraint_techs.xml) to the folder.
 4. Within each `policy-portfolio-standard` tag in the first XML, adjust the following:
 </p>
 
@@ -191,11 +191,11 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 <b>Example XML structures</b> 
 <br>
 <img src="images/adjust_elec_gen_both.png">
-<i>Note: `min-price` should be set to a large negative number (e.g., -10000) for years in which an exact contraint is desired rather than a floor or ceiling. Otherwise, it can remain at the default (0).</i>
+<i>Note: `min-price` should be set to a large negative number (e.g., -10000) for years in which an exact constraint is desired rather than a floor or ceiling. Otherwise, it can remain at the default (0).</i>
 </p>
 
 
-6. Save the xml and then point to it in your configuration file by adding the line: 
+6. Save the XMLs and then point to them in your configuration file by adding the lines: 
 <p style='font-size:0.8em'>
 `<Value name = "scen">../input/addons//electricity_generation_constraints.xml</Value>`
 `<Value name = "scen">../input/addons//electricity_generation_constraint_techs.xml</Value>`
@@ -207,6 +207,29 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 </div>
 
 <br>
+
+<!-------------------------->
+<!------Example Output------>
+<!-------------------------->
+
+<div class="warning" style='background-color:#efe1f5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<h3 style='text-align:center; font-size:24px'>
+<b>Example Output</b>
+</h3>
+
+
+<p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
+<br>
+<img src="images/elec_gen_chart.png">
+</p>
+
+
+</span>
+</div>
+
+<br>
+
 
 ## Building Envelope Efficiency
 ***
@@ -288,7 +311,7 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory: `./gcam-core/input/addons`.
-2. Download the example xml file [indonesia_buildings_shell.xml](https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_buildings_shell_eff_015_018.xml) to the folder.
+2. Download the example xml file [buildings_shell_efficiency.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/buildings_shell_efficiency.xml) to the folder.
 4. Within each `gcam-consumer` tag in the XML, specify the desired `shell-conductance` values for each year.
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
@@ -299,7 +322,7 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 5. Save the xml and then point to it in your configuration file by adding the line: 
 <p style='font-size:0.8em'>
-`<Value name = "scen">../input/addons/indonesia_buildings_shell.xml</Value>`
+`<Value name = "scen">../input/addons/buildings_shell_efficiency.xml</Value>`
 </p>
 
 </span>
@@ -329,7 +352,7 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <br>
 
-## Modifying technology costs - EV Cost Parity
+## Modifying technology costs - EVs
 ***
 
 ```{r EV cost parity files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
@@ -342,7 +365,7 @@ data.frame(
   "Files Used" = c("transportation_UCD_CORE.csv",
            "adjust_ev_tech_cost.xml"),
   Description = c("XML containing reference transportation technology costs",
-              "XML for modifying 4-wheel passenger BEV costs to reach BEV-Liquids cost parity in 2050")) %>%
+              "XML for modifying 4-wheel passenger BEV costs")) %>%
   dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
   kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
@@ -361,7 +384,7 @@ data.frame(
 </h3>
 
 <p style='margin-left:1em;'>
-This example demonstrates how to modify non-energy costs of transportation technologies in GCAM. We will decrease costs of 4-wheel passenger BEVs from 2020 to 2050 to represent policies that decrease the costs of EVs.
+This example demonstrates how to modify non-energy costs of transportation technologies in GCAM. We will decrease these costs for 4-wheel passenger BEVs from 2020 to 2050 to represent policies that lower EV costs.
 
 </p>
 </span>
@@ -437,17 +460,11 @@ We can use GCAM's `input-cost` parameter, which represents the non-energy costs 
 ```{r shareweight files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
-dt_url <- c("https://github.com/JGCRI/seasia/blob/main/data/thailand/inputs/thailand_bau_subsector_shareweights.csv",
-            "https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml",
-            "https://github.com/JGCRI/seasia/blob/main/modeling/thailand/thailand_policy_subnational_transport_freight_road_55_2040_lin.xml")
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/adjust_shareweight_rail.xml")
 
 data.frame(
-  "Files Used" = c("subsector_shareweights_ref.csv",
-           "thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml",
-           "thailand_policy_subnational_transport_freight_road_55_2040_lin.xml"),
-  Description = c("Reference share weights from Model Interface",
-              "Linear interpolation from default 2015 value (0.001342) to 0.0034 in 2040 for freight rail",
-              "Linear interpolation from default 2015 value (1) to 0.55 in 2040 for freight road")) %>%
+  "Files Used" = c("adjust_shareweight_rail.xml"),
+  Description = c("XML for setting passenger rail share weight dynamics")) %>%
   dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
   kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
@@ -466,7 +483,7 @@ data.frame(
 </h3>
 
 <p style='margin-left:1em;'>
-The goal of this example is represent Thailand's plans to increase freight rail and ship infrastructure, thereby increasing the share of rail and ship in total freight transportation and decreasing the share of road.
+This example demonstrates how to adjust share-weights in GCAM. We will increase the share-weight of passenger rail transport over time to represent policies that increase rail infrastructure.
 
 </p>
 </span>
@@ -486,12 +503,8 @@ The goal of this example is represent Thailand's plans to increase freight rail 
 <b>Approach</b></h3>
 
 <p style='margin-left:1em;'>
-Since infrastructure development is a non-cost impact on rail transport, we can use share weights to represent these impacts. Share weights are calibration parameters and not directly related to any "real-world" value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. The [subsector_shareweights_ref.csv]("https://github.com/JGCRI/seasia/blob/main/data/thailand/inputs/thailand_bau_subsector_shareweights.csv") file contains the share weights for each transportation mode; the freight rail share weight is 0.001342 for all future periods and the freight road share weight is 1. For this example, we tested a range of share weights and determined that the following modifications had the desired effect: 
+Since infrastructure development is a non-cost impact on rail transport, we can use share weights to represent this impact. Share weights are calibration parameters and not directly related to any "real-world" value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. The Model Interface query `transport subsector share-weights` can be used to check the reference share weights for transportation modes.
 </p>
-<ul style='margin-left:4em; text-align:left;'>
-  <li>Freight rail share weight: linearly increase from default 2015 value (0.001342) to 0.0034 in 2040 and remain at 0.0034 for the rest of the modeling period</li>
-  <li>Freight road share weight: linearly decrease from default 2015 value (1) to 0.55 in 2040 and remain at 0.55 for the rest of the modeling period</li>
-</ul>
 
 </span>
 </div>
@@ -519,28 +532,22 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory: `./gcam-core/input/addons`.
-2. Download the example xml files [freight_rail_0034_2040_lin.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/pass_rail_shrwt_lin_2050_fixed_2100.xml) and [freight_road_55_2040_lin.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/freight_road_55_2040_lin.xml) to the folder.
-4. Adjust the following in the appropriate `tranSubsector` tag in the XML as desired:
+2. Download the example xml file [adjust_shareweight_rail.xml](https://github.com/JGCRI/gcam_training/blob/main/examples/adjust_shareweight_rail.xml) to the folder.
+4. Adjust share weights and interpolation rules (`linear`, `fixed`, or `s-curve`) to the "Passenger Rail" `tranSubsector` tag in the XML. Add/ remove subsectors as desired.
 </p>
-
-<ul style='margin-left:4em; text-align:left;'>
-  <li>The `share-weight` for year 2040</li>
-  <li>The interpolation rule from 2015 to 2040 (linear)</li>
-  <li>The interpolation rule from 2040 to 2100 (fixed)</li>
-</ul>
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
 <b>Example xml structure</b> 
 <br>
-<img src="images/adjust_transport_mix_shareweight_eg_xml_structure.png">
+<img src="images/adjust_shareweight_rail.png">
+<br>
 <i>Note: The first interpolation rule must include delete="1" in order to override all of the previous (default) interpolation rules.</i>
 </p>
 
 <p style='margin-left:1em;'>
 7. Save the xml and then point to it in your configuration file by adding the lines: 
 <p style='font-size:0.8em'>
-`<Value name = "scen">../input/addons/thailand/thailand_policy_subnational_transport_freight_rail_0034_2040_lin.xml</Value>`
-`<Value name = "scen">../input/addons/thailand/thailand_policy_subnational_transport_freight_road_55_2040_lin.xml</Value>`
+`<Value name = "scen">../input/addons/adjust_shareweight_rail.xml</Value>`
 </p>
 </p>
 
