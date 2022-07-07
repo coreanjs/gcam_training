@@ -49,10 +49,57 @@ data.frame(
 
 <br>
 
+## GCAM 6.0
+***
+
+```{r gcam6p0 links, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam6p0_walkthrough.pdf")
+
+data.frame(
+  File = c("gcam5p4_walkthrough.pdf"),
+  Description = c("GCAM 6.0 walkthrough presentation")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
+<div class="video_box">
+<figure>
+  <figcaption>GCAM 6.0 Install and Run on Windows</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/EGxh-MFqRIs?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<div class="video_box">
+<figure>
+  <figcaption>GCAM 6.0 Install and Run on MacOS</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/c8DmPHHO6DA&t=2s?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<div class="video_box">
+<figure>
+  <figcaption>GCAM 6.0 gcamdata renv</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/EO6NPCf7lKc?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<div class="video_box">
+<figure>
+  <figcaption>GCAM 6.0 gcamdata User Modified Functions</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/S9PwWAEpLIE?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<br>
+
 ## GCAM 5.4
 ***
 
-```{r presentation links table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+```{r gcam5p4 links, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
 dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf",
