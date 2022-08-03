@@ -11,10 +11,8 @@ output:
     #inverse: true
 ---
 
-<div class="header_logo">
-<img src="images/logo_gcims_white.png" style="float:right;height:30px; padding-top:10px;">
-<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
-</div>
+```{r child = 'header.rmd'}
+```
 
 <!-------------------------->
 <!-------------------------->
@@ -58,7 +56,7 @@ library(kableExtra); library(dplyr)
 dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam6p0_walkthrough.pdf")
 
 data.frame(
-  File = c("gcam5p4_walkthrough.pdf"),
+  File = c("gcam6p0_walkthrough.pdf"),
   Description = c("GCAM 6.0 walkthrough presentation")) %>%
   dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
   kable("html", escape = FALSE) %>%
@@ -77,20 +75,6 @@ data.frame(
 <figure>
   <figcaption>GCAM 6.0 Install MacOS</figcaption>
   <iframe width="200" height="200" src="https://www.youtube.com/embed/c8DmPHHO6DA&t=2s?rel=0" frameborder="0" allowfullscreen></iframe>
-</figure>
-</div>
-
-<div class="video_box">
-<figure>
-  <figcaption>gcamdata renv</figcaption>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/EO6NPCf7lKc?rel=0" frameborder="0" allowfullscreen></iframe>
-</figure>
-</div>
-
-<div class="video_box">
-<figure>
-  <figcaption>gcamdata User Functions</figcaption>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/S9PwWAEpLIE?rel=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 </div>
 
@@ -154,6 +138,9 @@ knitr::include_graphics("images/gcam_software_map.jpg")
 
 ## Electricity Generation Mix
 ***
+<b style="font-size:120%;color:#900C3F;">
+Note: Last Tested using GCAM 6.0</b>
+
 
 ```{r electricity generation files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
@@ -291,6 +278,8 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 
 ## Building Envelope Efficiency
 ***
+<b style="font-size:120%;color:#900C3F;">
+Note: Last Tested using GCAM 6.0</b>
 
 ```{r shell files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
@@ -413,6 +402,9 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 ## Modifying technology costs - EVs
 ***
 
+<b style="font-size:120%;color:#900C3F;">
+Note: Last Tested using GCAM 6.0</b>
+
 ```{r EV cost parity files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
@@ -515,6 +507,9 @@ We can use GCAM's `input-cost` parameter, which represents the non-energy costs 
 ## Transportation Mode Shift - Share weights
 ***
 
+<b style="font-size:120%;color:#900C3F;">
+Note: Last Tested using GCAM 6.0</b>
+
 ```{r shareweight files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
 
@@ -614,58 +609,67 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 
 <br>
 
-<!-------------------------->
-# Batch runs
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+<!-- <!-------------------------->
+<!-- # Batch runs -->
+<!-- <!-------------------------->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
 
-<br>
+<!-- <br> -->
 
-<!-------------------------->
-# Parallel runs
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+<!-- <!-------------------------->
+<!-- # Parallel runs -->
+<!-- <!-------------------------->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
 
-<br>
+<!-- <br> -->
 
 <!-------------------------->
 # gcamdata
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
-## Required packages and versions
-***
+<div class="video_box">
+<figure>
+  <figcaption>gcamdata renv</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/EO6NPCf7lKc?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
 
-renv.lock file and instrcutions on how to run to get the correct versions.
+<div class="video_box">
+<figure>
+  <figcaption>gcamdata User Functions</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/S9PwWAEpLIE?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
 
 <br>
 
-<!-------------------------->
-# XMLs
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+<!-- <!-------------------------->
+<!-- # XMLs -->
+<!-- <!-------------------------->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
 
-## Create XML from csv
-***
+<!-- ## Create XML from csv -->
+<!-- *** -->
 
-<br>
+<!-- <br> -->
 
-<!-------------------------->
-# Extracting GCAM data
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
+<!-- <!-------------------------->
+<!-- # Extracting GCAM data -->
+<!-- <!-------------------------->
+<!-- <p align="center"> <img src="images/divider.png"></p> -->
 
-## rgcam
-***
+<!-- ## rgcam -->
+<!-- *** -->
 
-## modelInterface
-***
+<!-- ## modelInterface -->
+<!-- *** -->
 
-## gcamextractor
-***
+<!-- ## gcamextractor -->
+<!-- *** -->
 
-## Argus
-***
+<!-- ## Argus -->
+<!-- *** -->
 
 <!-------------------------->
 # Git
