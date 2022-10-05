@@ -45,6 +45,8 @@ data.frame(
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
+This section lists videos and presentations for selected releases of GCAM. These materials are usually presented at the GCAM annual meeting and curated here as a persistent reference.
+
 <br>
 
 ## GCAM 6.0
@@ -136,6 +138,17 @@ knitr::include_graphics("images/gcam_software_map.jpg")
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
 
+
+This section details how to adjust scenarios in GCAM to explore different policy and technology pathways or objectives. The list will continue to be expanded on as we gather relevant examples and use-cases. For each scenario adjustment we provide: 
+
+- Relevant example files 
+- Goal of the adjustment
+- General approach
+- Relevant background information related to the adjustment
+- Step-by-step guide to implementing the adjustment in GCAM
+- Example outputs
+
+
 ## Electricity Generation Mix
 ***
 <b style="font-size:120%;color:#900C3F;">
@@ -166,9 +179,9 @@ data.frame(
 
 <div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Goal</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 This example demonstrates how to set floors and ceilings for electricity generation by fuel in GCAM. We will set floors (minimum required generation amounts) for wind and solar and a ceiling (maximum generation amount) for coal from 2025 through 2040.
@@ -187,8 +200,8 @@ This example demonstrates how to set floors and ceilings for electricity generat
 <div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Approach</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Approach</b></p>
 
 <p style='margin-left:1em;'>
 We can use a `policy-portfolio-standard` to set floors and ceilings for each fuel. This will decrease (increase) the cost of the electricity generation technologies until the floor (ceiling) is satisfied. 
@@ -214,9 +227,9 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 
 <div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>GCAM Implementation</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory eg. `./gcam-core/input/addons`.
@@ -259,9 +272,9 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 
 <div class="warning" style='background-color:#efe1f5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Example Output</b>
-</h3>
+</p>
 
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
@@ -302,9 +315,9 @@ data.frame(
 
 <div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Goal</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 This example demonstrates how to modify building envelope efficiencies in GCAM. We will increase efficiency over time, which could be used to represent increasing compliance with the envelope efficiency component of building energy codes. 
@@ -323,8 +336,8 @@ This example demonstrates how to modify building envelope efficiencies in GCAM. 
 <div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Approach</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Approach</b></p>
 We can use GCAM's `shell-conductance` parameter to represent an increase in building envelope efficiency.
 <p style='margin-left:1em;'>
 
@@ -352,9 +365,9 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>GCAM Implementation</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory: `./gcam-core/input/addons`.
@@ -383,9 +396,9 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <div class="warning" style='background-color:#efe1f5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Example Output</b>
-</h3>
+</p>
 
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
@@ -429,9 +442,9 @@ data.frame(
 
 <div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Goal</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 This example demonstrates how to modify non-energy costs of transportation technologies in GCAM. We will decrease these costs for 4-wheel passenger BEVs from 2020 to 2050 to represent policies that lower EV costs.
@@ -450,8 +463,8 @@ This example demonstrates how to modify non-energy costs of transportation techn
 <div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Approach</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Approach</b></p>
 
 <p style='margin-left:1em;'>
 We can use GCAM's `input-cost` parameter, which represents the non-energy costs of a given technology.
@@ -476,9 +489,9 @@ We can use GCAM's `input-cost` parameter, which represents the non-energy costs 
 
 <div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>GCAM Implementation</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory: `./gcam-core/input/addons`.
@@ -504,7 +517,7 @@ We can use GCAM's `input-cost` parameter, which represents the non-energy costs 
 <br>
 
 
-## Transportation Mode Shift - Share weights
+## Transport Mode Shift - Share weights
 ***
 
 <b style="font-size:120%;color:#900C3F;">
@@ -531,9 +544,9 @@ data.frame(
 
 <div class="warning" style='background-color:#E1F4F5; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>Goal</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 This example demonstrates how to adjust share-weights in GCAM. We will increase the share-weight of passenger rail transport over time to represent policies that increase rail infrastructure.
@@ -552,8 +565,8 @@ This example demonstrates how to adjust share-weights in GCAM. We will increase 
 <div class="warning" style='background-color:#fffae0; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Approach</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Approach</b></p>
 
 <p style='margin-left:1em;'>
 Since infrastructure development is a non-cost impact on rail transport, we can use share weights to represent this impact. Share weights are calibration parameters and not directly related to any "real-world" value, so it is usually necessary to test a range of share weight modifications to obtain the desired effect. The Model Interface query `transport subsector share-weights` can be used to check the reference share weights for transportation modes.
@@ -579,9 +592,9 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 
 <div class="warning" style='background-color:#F5E5E1; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
-<h3 style='text-align:center; font-size:24px'>
+<p style='text-align:center; font-size:24px'>
 <b>GCAM Implementation</b>
-</h3>
+</p>
 
 <p style='margin-left:1em;'>
 1. Create a folder in the input directory: `./gcam-core/input/addons`.
@@ -654,9 +667,9 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 
 <!-- <br> -->
 
-<!-- <!-------------------------->
-<!-- # Extracting GCAM data -->
-<!-- <!-------------------------->
+<!-------------------------->
+# Extracting GCAM data
+<!-------------------------->
 <!-- <p align="center"> <img src="images/divider.png"></p> -->
 
 <!-- ## rgcam -->
@@ -665,8 +678,23 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 <!-- ## modelInterface -->
 <!-- *** -->
 
-<!-- ## gcamextractor -->
+## gcamextractor
 <!-- *** -->
+
+`gcamextractor` is an R package which allows users to extract selected parameters from a GCAM database into standardized tables with consistent column names for easier downstream plotting and analysis. `gcamextractor` also converts the extracted data into more commonly used units. Detailed documentation for `gcamextractor` can be found in the [user guide](https://jgcri.github.io/gcamextractor/). A simple example is provided below on how to extract data from GCAM using `gcamextractor` in `R`. Users can select individual parameters listed [here](https://jgcri.github.io/gcamextractor/articles/vignette_parameters.html) or simply select `summary` for a selection of commonly used diagnostic parameters.
+
+
+```{r, eval=F}
+# In R
+# devtools::install_github("JGCRI/gcamextractor")
+library(gcamextractor)
+
+data <- gcamextractor::readgcam(gcamdatabase = "FULL/PATH/TO/GCAM_DATABASE",
+                                paramsSelect = c("pop","elecByTechTWh"),
+                                regionsSelect = c("Argentina","Colombia"))
+```
+
+
 
 <!-- ## Argus -->
 <!-- *** -->

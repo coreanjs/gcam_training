@@ -5,8 +5,8 @@
 <div class="warning" style='background-color:#EFFFC9; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Background - Cooling Demand</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Background - Cooling Demand</b></p>
 
 <p style='margin-left:1em;'>
 Cooling demand in GCAM depends on the indoor-outdoor temperature difference (measured using cooling degree days or CDD), the building's shell conductance, and the building's external heat gains along with GDP and price factors. For more details and to view the equation used to calculate cooling demand, see the **Building service demand** section of the [GCAM energy demand documentation](https://jgcri.github.io/gcam-doc/demand_energy.html#equations). GCAM's `shell-conductance` parameter is the inverse of building envelope efficiency. Its units are watts per square meter per degree Kelvin and it represents the amount of heat transferred through the building's exterior when there is a difference between the indoor and outdoor temperature. 

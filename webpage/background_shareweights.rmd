@@ -5,8 +5,8 @@
 <div class="warning" style='background-color:#EFFFC9; border-left: solid #1f1f1f 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 
-<h3 style='text-align:center; font-size:24px'>
-<b>Background - Share weights</b></h3>
+<p style='text-align:center; font-size:24px'>
+<b>Background - Share weights</b></p>
 
 <p style='margin-left:1em;'>
 Share weights are assigned to different subsectors and technology choices in GCAM to represent non-cost factors of consumer choice. They are used primarily to calibrate market shares to historical data but can also be modified to reflect factors such as infrastructure development or shifting societal preferences. For more information on share weights and how they are used in GCAM's economic choice functions, see the [GCAM economic choice](https://jgcri.github.io/gcam-doc/choice.html) documentation. Share weights should not be used to represent cost-related policies. Additionally, shareweight interpolation rules (`fixed`, `linear`, or `s-curve`) can be used to automatically interpolate shareweights between given years.
