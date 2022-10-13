@@ -717,7 +717,7 @@ This section discussed how to push a development branch of GCAM from stash onto 
 2. Give it a relevant name such as `gcam_v5p4_projectx`
 3. Copy the clone address of the new repo e.g. https://github.com/USERNAME/gcam_v5p4_projectx.git
 4. Push your local stash branch changes up to this branch: 
-<p>`git push -u origin https://github.com/USERNAME/gcam_v5p4_projectx.git`</p>
+<p>`git push https://github.com/USERNAME/gcam_v5p4_projectx.git` local_branch_name:new_branch_name</p>
 5. Continue to work stash branch as usual and also push up latest changes to github as above.
 </p></span>
 </div>
