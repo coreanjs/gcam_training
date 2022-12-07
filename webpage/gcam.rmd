@@ -8,6 +8,7 @@ output:
     #toc_depth: 3
     #number_sections: false
     theme: cosmo
+    code_folding: show
     #inverse: true
 ---
 
@@ -40,7 +41,7 @@ data.frame(
 
 <!-------------------------->
 <!-------------------------->
-# Tutorials
+# Tutorials {.tabset .tabset-pills}
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="images/divider.png"></p>
@@ -120,7 +121,29 @@ data.frame(
 
 <br>
 
-## GCAM Software Map
+<!-------------------------->
+## gcamdata
+<!-------------------------->
+***
+
+<div class="video_box">
+<figure>
+  <figcaption>gcamdata renv</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/EO6NPCf7lKc?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<div class="video_box">
+<figure>
+  <figcaption>gcamdata User Functions</figcaption>
+  <iframe width="200" height="200" src="https://www.youtube.com/embed/S9PwWAEpLIE?rel=0" frameborder="0" allowfullscreen></iframe>
+</figure>
+</div>
+
+<br>
+
+## GCAM Software Used
+***
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
 <br>
@@ -150,9 +173,6 @@ This section details how to adjust scenarios in GCAM to explore different policy
 
 
 ## Electricity Generation Mix
-***
-<b style="font-size:120%;color:#900C3F;">
-Note: Last Tested using GCAM 6.0</b>
 
 
 ```{r electricity generation files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
@@ -279,7 +299,7 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
 <br>
-<img src="images/elec_gen_chart.png">
+<img src="images/elec_gen_chart.jpg">
 </p>
 
 
@@ -289,10 +309,7 @@ We can use a `policy-portfolio-standard` to set floors and ceilings for each fue
 <br>
 
 
-## Building Envelope Efficiency
-***
-<b style="font-size:120%;color:#900C3F;">
-Note: Last Tested using GCAM 6.0</b>
+## Building Envelope Efficiency 
 
 ```{r shell files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
@@ -403,7 +420,7 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <p style='margin-bottom:1em; margin-left:1em; text-align:center;'> 
 <br>
-<img src="images/shell_eff_chart.png">
+<img src="images/shell_eff_chart.jpg">
 </p>
 
 
@@ -412,11 +429,7 @@ We can use GCAM's `shell-conductance` parameter to represent an increase in buil
 
 <br>
 
-## Modifying technology costs - EVs
-***
-
-<b style="font-size:120%;color:#900C3F;">
-Note: Last Tested using GCAM 6.0</b>
+## Modifying technology costs - EVs 
 
 ```{r EV cost parity files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
@@ -517,11 +530,7 @@ We can use GCAM's `input-cost` parameter, which represents the non-energy costs 
 <br>
 
 
-## Transport Mode Shift - Share weights
-***
-
-<b style="font-size:120%;color:#900C3F;">
-Note: Last Tested using GCAM 6.0</b>
+## Transport Mode Shift - Share weights 
 
 ```{r shareweight files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
 library(kableExtra); library(dplyr)
@@ -636,26 +645,6 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 
 <!-- <br> -->
 
-<!-------------------------->
-# gcamdata
-<!-------------------------->
-<p align="center"> <img src="images/divider.png"></p>
-
-<div class="video_box">
-<figure>
-  <figcaption>gcamdata renv</figcaption>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/EO6NPCf7lKc?rel=0" frameborder="0" allowfullscreen></iframe>
-</figure>
-</div>
-
-<div class="video_box">
-<figure>
-  <figcaption>gcamdata User Functions</figcaption>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/S9PwWAEpLIE?rel=0" frameborder="0" allowfullscreen></iframe>
-</figure>
-</div>
-
-<br>
 
 <!-- <!-------------------------->
 <!-- # XMLs -->
@@ -670,7 +659,7 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 <!-------------------------->
 # Extracting GCAM data
 <!-------------------------->
-<!-- <p align="center"> <img src="images/divider.png"></p> -->
+<p align="center"> <img src="images/divider.png"></p>
 
 <!-- ## rgcam -->
 <!-- *** -->
@@ -679,25 +668,127 @@ Since infrastructure development is a non-cost impact on rail transport, we can 
 <!-- *** -->
 
 ## gcamextractor
-<!-- *** -->
+***
 
 `gcamextractor` is an R package which allows users to extract selected parameters from a GCAM database into standardized tables with consistent column names for easier downstream plotting and analysis. `gcamextractor` also converts the extracted data into more commonly used units. Detailed documentation for `gcamextractor` can be found in the [user guide](https://jgcri.github.io/gcamextractor/). A simple example is provided below on how to extract data from GCAM using `gcamextractor` in `R`. Users can select individual parameters listed [here](https://jgcri.github.io/gcamextractor/articles/vignette_parameters.html) or simply select `summary` for a selection of commonly used diagnostic parameters.
-
 
 ```{r, eval=F}
 # In R
 # devtools::install_github("JGCRI/gcamextractor")
 library(gcamextractor)
+gcamextractor::params # Check all available params
 
 data <- gcamextractor::readgcam(gcamdatabase = "FULL/PATH/TO/GCAM_DATABASE",
-                                paramsSelect = c("pop","elecByTechTWh"),
+                                paramsSelect = c("pop","elecByTechTWh","watWithdrawBySec"),
                                 regionsSelect = c("Argentina","Colombia"))
+
+dataGCAM$data # View all data
+dataGCAM$dataAggClass1 # Aggregated to class 1 vars (Example file linked above)
+dataGCAM$dataAggClass2 # Aggregated to class 2 vars
+dataGCAM$dataAggParam # Aggregated to params
+
 ```
 
 
+<br>
 
-<!-- ## Argus -->
+
+```{r gcamextractor files table, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/examples/gcamDataTable_aggClass1.csv")
+
+data.frame(
+  "Files Used" = c("gcamDataTable_aggClass1.csv"),
+  Description = c("One of the outputs from the gcamextractor examples shown here.")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE, col.names = c("Files Used", "Description", "Link")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
+
+<br>
+
+<!-------------------------->
+# Plotting Data
+<!-------------------------->
+<p align="center"> <img src="images/divider.png"></p>
+
+## rchart {.tabset .tabset-pills}
+***
 <!-- *** -->
+
+`rchart` is an R package which allows users to plot `gcamextractor` outputs into charts with standardized JGCRI colors. Detailed documentation for `rchart` can be found in the [user guide](https://jgcri.github.io/rchart/). Some examples are provided below using example data uploaded to the `gcam_training` repository. Users can extract the data from their own databases using the gcamextractor example shown [above](#gcamextractor). Combining `gcamextractor` and `rchart` you can plot very detailed data in just one line of code.
+
+```{r rchart_examples, echo = TRUE, eval = FALSE, class.source = 'fold-show'}
+# devtools::install_github("JGCRI/rchart") # If needed
+library(rchart)
+
+data <- data.table(url("https://github.com/JGCRI/gcam_training/blob/main/examples/gcamDataTable_aggClass1.csv")) # Read Data
+charts <- rchart::chart(data, save=F, scenRef = "GCAM_SSP2") # Plot data
+names(charts) # See list of charts
+
+```
+
+Below you can see the outputs for all the different charts produced.
+
+### chart_param
+
+```{r rchart_examples_param, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_param_Argentina
+charts$chart_param_Colombia
+```
+
+<br>
+
+### chart_param_diff
+
+```{r rchart_examples_param_diff, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_param_diff_absolute_Argentina
+charts$chart_param_diff_percent_Argentina
+charts$chart_param_diff_absolute_Colombia
+charts$chart_param_diff_percent_Colombia
+```
+
+<br>
+
+### chart_class
+
+```{r rchart_examples_class, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_class_Argentina
+charts$chart_class_Colombia
+```
+
+<br>
+
+### chart_class_diff
+
+```{r rchart_examples_class_diff, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_class_diff_absolute_Argentina
+charts$chart_class_diff_percent_Argentina
+charts$chart_class_diff_absolute_Colombia
+charts$chart_class_diff_percent_Colombia
+```
+
+<br>
+
+### chart_region
+
+```{r rchart_examples_region, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_region_absolute
+```
+
+<br>
+
+### chart_waterfall
+
+```{r rchart_examples_waterfall, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+charts$chart_class_waterfall_Argentina
+charts$chart_class_waterfall_Argentina
+```
+
+<br>
 
 <!-------------------------->
 # Git

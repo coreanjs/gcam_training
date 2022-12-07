@@ -1,0 +1,1078 @@
+"scenario","region","subRegion","param","classLabel","class","xLabel","x","vintage","units","value"
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.107000000000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",1.28700000000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.19499972222224
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",2.13777166666668
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",2.81184472222224
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.95186413888892
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",5.00478291666671
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",6.05954391666671
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",6.87939408333339
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",7.33941513888895
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",7.23492938888895
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.660000000000005
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.17999972222224
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",3.01299694444447
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.30264694444447
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.91908666666671
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",6.10028744444449
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",7.19800097222228
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",8.15596688888895
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",8.97630136111118
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",9.56854986111119
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",10.0952626944445
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",19.8719994444446
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",55.3258833333338
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",62.6090777777783
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",71.3593333333339
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",97.5438444444452
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",121.927166666668
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",149.092633333335
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",176.908013055557
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",204.673674444446
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",228.538662222224
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",248.970359444446
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.21330111111112
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.07897833333336
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",5.67318833333338
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",8.60289666666674
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",11.6204550000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",14.2926350000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",15.7521222222223
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",17.8760000000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",34.0038888888892
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",33.5869444444447
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",38.0388888888892
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",39.2113888888892
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",40.384166666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",41.556666666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",42.729166666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",43.901666666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",45.074166666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",46.246666666667
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",7.28100000000006
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",6.87300000000005
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",7.17100000000006
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.13825000000006
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",8.04340541666673
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",9.08936641666674
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",10.2081059444445
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",11.2703952777779
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",12.3042991944445
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",13.124589238889
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",13.9649221277779
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.94400000000004
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",5.74599972222227
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",16.6630000000001
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",22.3546083333335
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",23.3432555555557
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",23.1980887500002
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",22.8061206944446
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",23.1324251111113
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",21.7850066111113
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",19.033293638889
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",18.9750154444446
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.014998388888889
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",2.01758331994363
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",9.57218010706035
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",21.9683574248299
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",35.3531584992744
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",48.0762307078857
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",59.3383972897191
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",69.7651674150533
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0750000000000006
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0249999722222224
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.598936111111116
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.66182469444448
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",11.7840459722223
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",23.166684027778
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",37.8343487500003
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",54.678296805556
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",70.4105491666672
+"GCAM_SSP2","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",83.1483665555562
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",25.866
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",32.619
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",38.893
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",40.896
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",43.075
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",44.637
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",46.04
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",47.286
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",48.376
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",49.321
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",50.052
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",50.587
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",50.92
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",51.055
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",51.051
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",50.881
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",50.559
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",50.101
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",49.577
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",49.002
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",48.379
+"GCAM_SSP2","Argentina","Argentina","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",47.716
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",5.4370410353
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",6.4111789994
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",8.6362105272
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",9.8324119134
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",10.4439572192
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",10.9977976667
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",11.7095468788
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",12.3366995445
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",12.993071634
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",13.6967830962
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",14.4567720241
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",15.0459101394
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.692245044
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.9691777769
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",1.7335027981
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.0501348332
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",2.0497381755
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",2.0936270749
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.0767272806
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",2.0284227539
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.9440554376
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.846595647
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.7813889457
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.691071656
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",1.14907836
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.322522392
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",2.596831626
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.888624849
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.3626811617756
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",3.8422625026018
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.3240427160543
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.786615086429
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",5.207395488148
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.587476392817
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.926632926982
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0107240304
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.760319578
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.81864858
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.813715396
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.830027117
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.88838542
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.95191408
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",1.00972771
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",1.06306841
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.11099168
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.15300636
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.19023424
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0003626807058
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.12972499864
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.16551316863
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.21335614949
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.2272800193
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.2402843758
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.2479840918
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.2492563681
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.2466015586
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.2368135521
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.2217549997
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.20926632869
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",3.386594589
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",4.270698996
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",5.350999598
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",5.762697673
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",6.098495546
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",6.3912769031995
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",6.6475009517407
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",6.903867011699
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",7.126259322039
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",7.305840225634
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",7.440740573106
+"GCAM_SSP2","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",7.550860021235
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.27399877777778
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.502999666666671
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.41699388888891
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",1.36927805555557
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.89947527777779
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.55709355555558
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",3.44970175000003
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",4.45611188888892
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",5.55786491666671
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",6.62997091666672
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",7.4677813444445
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",3.70799583333336
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.46900333333335
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",4.0949991666667
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.08109722222228
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",11.2066475000001
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",14.5457489166668
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",18.4428874722224
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",22.2915098611113
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",26.4003279166669
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",30.5114180833336
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",34.8901174166669
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.49897611111115
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",7.39902055555561
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",11.9699616666668
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",17.932463888889
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",27.9350286111113
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",37.7443944444447
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",50.5603352777782
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",63.1833622222227
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",76.2069763888895
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",89.6493438888896
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",103.085221111112
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.335011388888892
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",0.939258055555563
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",2.00455861111113
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",3.34402250000003
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",4.94335972222226
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",6.63124833333339
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",8.1144233333334
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",27.4970000000002
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",39.8030555555559
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",40.4011111111114
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",48.5680555555559
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",51.2508333333337
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",53.9336111111115
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",56.6163888888893
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",59.2991666666671
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",61.9819444444449
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",64.6647222222227
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",67.3475000000005
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",0.415708277777781
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",1.28031983333334
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",2.66685655555558
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.378999583333336
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.114000305555556
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.501999611111115
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.05316388888891
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.43856588888892
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",4.93926527777782
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",6.13810441666671
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",7.87359344444451
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",10.2506470277779
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",12.3733207222223
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",15.0559047777779
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.546283626533893
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.7330477744617
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",10.672687118509
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",18.4524481676479
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",26.1213797877035
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",33.7361715946203
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",41.7730165980864
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0490000000000004
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0390000000000003
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.0679147222222228
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.897678897222229
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.47775806388891
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",5.51427053611116
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",9.77484309166674
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",15.5872611472223
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",22.7412895361113
+"GCAM_SSP2","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",31.0011243333336
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",24.066
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",33.103
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",42.648
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",45.223
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",47.521
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",50.315
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",52.898
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",55.222
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",57.24
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",58.976
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",60.431
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",61.553
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",62.356
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",62.899
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",63.157
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",63.179
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",62.972
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",62.528
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",61.871
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",61.079
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",60.178
+"GCAM_SSP2","Colombia","Colombia","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",59.18
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",2.11669568
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.81586612
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",3.78530446
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.69506508
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.59354283
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.86128904
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.0797697
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.2956476
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.5518988
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.8887647
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.3252495
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.7598879
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.1903896
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.1718965
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.3565345
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.5048609
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.6215721
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.7388336
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.8873444
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",1.031893
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.1854913
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.335816
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.487895
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.11031397
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.2125482
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.5481237
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.7591788
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",1.264048
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",1.587822
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",1.891433
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.250295
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",2.647783
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",3.081408
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",3.537922
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",3.999967
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.013586913
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.3665869
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.4666707
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.518606
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.521207
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.5738289
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.6225955
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.6725712
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.7217567
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.768917
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.8128408
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.8524905
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0008833641
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.06668186
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.08120583
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.09209218
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.1108176
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.11996483
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.122816
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.1238621
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.1246991
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.1244452
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.1227683
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.12169285
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",1.4981
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.060702
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.883201
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.236403
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.489997
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.787193
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.027202
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.272459
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.500479
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.715123
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",4.912187
+"GCAM_SSP2","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.085647
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.107000000000001
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",1.28700000000001
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.19499972222224
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",2.13777166666668
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",2.66454944444447
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.74843794444447
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",4.70707977777781
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",5.6674990555556
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",6.30770438888894
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",6.22446144444449
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",6.08356227777783
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.660000000000005
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.17999972222224
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",3.01299694444447
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.30264694444447
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",5.05867222222226
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",6.29095136111116
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",7.45610697222228
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",8.51886644444451
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",9.43506961111119
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",10.150971013889
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",10.8566620805556
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",19.8719994444446
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",55.3258833333338
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",62.6090777777783
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",71.3593333333339
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",99.055522222223
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",123.013866666668
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",149.70221388889
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",177.413295833335
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",204.172978333335
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",227.726753611113
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",249.652108055558
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.36893222222223
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.13182888888891
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",5.36184250000004
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",7.77317638888895
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",10.1293925000001
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",12.2178444444445
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",13.0027027777779
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",17.8760000000001
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",34.0038888888892
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",33.5869444444447
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",38.0388888888892
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",39.2113888888892
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",40.384166666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",41.556666666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",42.729166666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",43.901666666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",45.074166666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",46.246666666667
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",7.28100000000006
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",6.87300000000005
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",7.17100000000006
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.13825000000006
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",8.04704869444451
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",8.96098522222229
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",9.84763480555563
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",10.6124548944445
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",11.232117813889
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",11.6407970722223
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",12.0730372555557
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.94400000000004
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",5.74599972222227
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",16.6630000000001
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",22.3546083333335
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",23.0571486111113
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",23.9770105555557
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",25.0156133888891
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",25.3663180000002
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",24.9515738611113
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",23.366962527778
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",24.5705006388891
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.014998388888889
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",3.45821703645558
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",7.27148524235256
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",11.6496232129998
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",16.5941089247082
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",21.7390309650693
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",26.6352324962027
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",30.3681946955305
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0750000000000006
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0249999722222224
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.598936111111116
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.35370877777781
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",9.59687483333341
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",16.9650840833335
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",25.7938140833335
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",35.2433468611114
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",43.6750737222226
+"GCAM_SSP3","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",49.4126606111115
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",25.866
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",32.619
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",38.893
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",40.896
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",43.075
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",45.096
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",47.175
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",49.268
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",51.279
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",53.245
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",55.19
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",57.132
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",59.011
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",60.808
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",62.539
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",64.231
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",65.927
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",67.666
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",69.466
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",71.338
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",73.277
+"GCAM_SSP3","Argentina","Argentina","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",75.276
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",5.4370410353
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",6.4111789994
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",8.6362105272
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",9.8324119134
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",10.4439572192
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",11.098163526
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",11.9639317556
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",12.7099053357
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",13.4894593998
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",14.3332233513
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",15.0874187688
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",15.7528416837
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.692245044
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.9691777769
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",1.7335027981
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.0501348332
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",2.0439778584
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",2.1030916474
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.1103910332
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",2.0716430336
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",2.0000910993
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.9043243942
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.8520444703
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.691071656
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",1.14907836
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.322522392
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",2.596831626
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.888624849
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.3798331689275
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",3.8354410077401
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.2512415719577
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.613101197591
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.93343900345
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.220788172392
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.496305834081
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0107240304
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.760319578
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.81864858
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.813715396
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.830027117
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.8946134
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.96306048
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",1.02477344
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",1.08031667
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.1322933
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.18215324
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.23155373
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0003626807058
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.12972499864
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.16551316863
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.21335614949
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.2272800193
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.2511452934
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.2581324709
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.2594539493
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.2532479435
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.2406777788
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.2227346335
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.20919656548
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",3.386594589
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",4.270698996
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",5.350999598
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",5.762697673
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",6.098495546
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",6.4352638733637
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",6.6998312485469
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",6.944485680055
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",7.143139271467
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",7.305007957589
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",7.430756832289
+"GCAM_SSP3","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",7.555975734662
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.27399877777778
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.502999666666671
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.41699388888891
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",1.36927805555557
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.84597644444446
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.32747147222224
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",2.89748820000002
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",3.43228180833336
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",3.92023980277781
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",4.0665326916667
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",3.96159995000003
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",3.70799583333336
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.46900333333335
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",4.0949991666667
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.08109722222228
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",11.7113305555556
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",15.0172880277779
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",18.6028589444446
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",21.7149100833335
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",24.8273397222224
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",27.899248027778
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",31.1597911388891
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.49897611111115
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",7.39902055555561
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",11.9699616666668
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",17.932463888889
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",28.7110691666669
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",37.6149863888892
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",48.1425247222226
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",57.0200725000005
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",65.5497363888894
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",74.2600127777784
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",82.9750244444451
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.387635833333336
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",0.926503888888896
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",1.73118750000001
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",2.5958877777778
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",3.56440555555558
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",4.58396944444448
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",5.31144944444449
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",27.4970000000002
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",39.8030555555559
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",40.4011111111114
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",48.5680555555559
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",51.2508333333337
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",53.9336111111115
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",56.6163888888893
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",59.2991666666671
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",61.9819444444449
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",64.6647222222227
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",67.3475000000005
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",0.228148055555557
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",0.672333416666672
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",1.34129502777779
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.378999583333336
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.114000305555556
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.501999611111115
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.05316388888891
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.3760364166667
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",4.90855544444448
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",6.25837736111116
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",7.4509351944445
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",9.01326325000007
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",10.293755888889
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",12.2323167222223
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.926009461875841
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.13301689321613
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",3.72461461130503
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",5.62840657815227
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",7.88892026696895
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",10.2928859095884
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",12.6912295366737
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0490000000000004
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0390000000000003
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.0679147222222228
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.853656538888896
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",1.9678537138889
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",3.72801854722225
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",5.74980374166671
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",8.17769538055562
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",10.8494172972223
+"GCAM_SSP3","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",13.1849427861112
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",24.066
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",33.103
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",42.648
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",45.223
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",47.521
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",50.853
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",54.194
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",57.485
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",60.573
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",63.511
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",66.342
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",69.08
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",71.666
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",74.1
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",76.404
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",78.588
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",80.671
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",82.67
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",84.625
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",86.573
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",88.538
+"GCAM_SSP3","Colombia","Colombia","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",90.512
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",2.11669568
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.81586612
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",3.78530446
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.69506508
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.59354283
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.91610046
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.20264059
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.4838973
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.7555751
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",5.0534977
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.413127
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.8011492
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.1903896
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.1718965
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.3565345
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.5048609
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.6313404
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.7384044
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.8610995
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.9531515
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.0388385
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.1126583
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.1878809
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.11031397
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.2125482
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.5481237
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.7591788
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",1.264048
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",1.594927
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",1.868745
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.140103
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",2.390062
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",2.644878
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",2.895627
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",3.149487
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.013586913
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.3665869
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.4666707
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.518606
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.521207
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.5788307
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.6308369
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.6814062
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.7283347
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.7740914
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.8183572
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.8612424
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0008833641
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.06668186
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.08120583
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.09209218
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.1108176
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.1261826
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.1277417
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.1273515
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.1257572
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.12144562
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.11520443
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.11123398
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",1.4981
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.060702
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.883201
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.236403
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.489997
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.822243
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.078982
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.316002
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.510761
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.687565
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",4.847992
+"GCAM_SSP3","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",4.994483
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.107000000000001
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",1.28700000000001
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.19499972222224
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",2.13777166666668
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",2.7789077777778
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.89615952777781
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",4.9509203055556
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",5.83617069444449
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",6.20694327777783
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",5.94842594444449
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",5.53086686111116
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.660000000000005
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.17999972222224
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",3.01299694444447
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.30264694444447
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",5.01378555555559
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",6.38059147222227
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",7.88951336111117
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",9.25636850000007
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",10.3370693916667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",11.049658213889
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",11.5928026694445
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",19.8719994444446
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",55.3258833333338
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",62.6090777777783
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",71.3593333333339
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",100.425955555556
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",131.705516666668
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",174.131855555557
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",220.502816666668
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",264.587738055558
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",300.335265833336
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",331.018325000003
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.21056083333334
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.13680166666669
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",6.03627222222227
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",9.1847697222223
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",12.0632008333334
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",14.334951388889
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",15.1629333333335
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",17.8760000000001
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",34.0038888888892
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",33.5869444444447
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",38.0388888888892
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",39.2113888888892
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",40.384166666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",41.556666666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",42.729166666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",43.901666666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",45.074166666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",46.246666666667
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",7.28100000000006
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",6.87300000000005
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",7.17100000000006
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.13825000000006
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",8.03990422222229
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",9.13367280555563
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",10.4681591944445
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",11.7044732222223
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",12.6864224555557
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",13.2554683944446
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",13.649399188889
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.94400000000004
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",5.74599972222227
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",16.6630000000001
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",22.3546083333335
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",23.7668858333335
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",24.4138417500002
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",22.2888347500002
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",21.8792038333335
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",20.6725968611113
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",18.8732800277779
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",18.4966067500001
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.014998388888889
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.91582137587863
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",9.06798496538424
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",22.1993215250149
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",37.5999540654872
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",51.8623187527096
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",63.7023841866541
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",73.4373133323589
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0750000000000006
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0249999722222224
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.598936111111116
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.65519733333337
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",12.0465023611112
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",25.047289027778
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",41.4342406944448
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",58.2973965277782
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",72.3775279166672
+"GCAM_SSP5","Argentina","Argentina","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",81.7593828055562
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",25.866
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",32.619
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",38.893
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",40.896
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",43.075
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",44.208
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",45.024
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",45.57
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",45.939
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",46.089
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",45.987
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",45.641
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",45.101
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",44.386
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",43.536
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",42.548
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",41.426
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",40.176
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",38.694
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",37.032
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",35.246
+"GCAM_SSP5","Argentina","Argentina","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",33.379
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",5.4370410353
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",6.4111789994
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",8.6362105272
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",9.8324119134
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",10.4439572192
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",10.9614272321
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",11.6279861424
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",12.2550337133
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",13.0023932013
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",13.7530383679
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",14.3952960773
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",14.8839982676
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.692245044
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.9691777769
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",1.7335027981
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.0501348332
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",2.0763463834
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",2.1736931395
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.2014195071
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",2.2104522404
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",2.1953838676
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",2.1506783317
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",2.117308452
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.691071656
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",1.14907836
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.322522392
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",2.596831626
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",2.888624849
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.3600526336769
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",3.9166123612586
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.541408996376
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",5.168948980214
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",5.700738616067
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",6.125593668857
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",6.448337912711
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0107240304
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.760319578
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.81864858
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.813715396
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.830027117
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.88291851
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.94651854
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",1.00882349
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",1.06787759
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.11643209
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",1.15292765
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",1.17995542
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0003626807058
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.12972499864
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.16551316863
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.21335614949
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.2272800193
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.2525696575
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.264871639
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.2668425891
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.268372001
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.2639845164
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.2552742552
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.2449872698
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",3.386594589
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",4.270698996
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",5.350999598
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",5.762697673
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",6.098495546
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",6.3524536726499
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",6.621556485384
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",6.943041977315
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",7.261687938892
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",7.544334581867
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",7.746910038778
+"GCAM_SSP5","Argentina","Argentina","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",7.872902154349
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.27399877777778
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.502999666666671
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",2.41699388888891
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",1.36927805555557
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",1.92196594444446
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.75475100000002
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",3.92584963888892
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",5.45728497222227
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",7.06311725000006
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",8.38170375000007
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","biomass","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",9.26499636111119
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",3.70799583333336
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",2.46900333333335
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",4.0949991666667
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",7.08109722222228
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",11.8079636111112
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",16.8650806944446
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",23.4930138888891
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",31.7711149722225
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",41.0738165277781
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",50.525376055556
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","coal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",59.870403055556
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",4.49897611111115
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",7.39902055555561
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",11.9699616666668
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",17.932463888889
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",29.6629300000002
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",45.0469627777781
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",66.553551944445
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",93.4259705555563
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",123.130445833334
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",153.973296944446
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","gas","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",186.64237638889
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.351365000000003
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",1.11504027777779
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",2.4769752777778
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",4.34325111111115
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",6.41830611111116
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",8.42148527777784
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","geothermal","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",9.93979000000008
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",27.4970000000002
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",39.8030555555559
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",40.4011111111114
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",48.5680555555559
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",51.2508333333337
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",53.9336111111115
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",56.6163888888893
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",59.2991666666671
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",61.9819444444449
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",64.6647222222227
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","hydro","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",67.3475000000005
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",0.635457888888894
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",1.88584802777779
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","nuclear","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",3.6643531666667
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",1990,"Vint_1990","Electricity Generation by Fuel (TWh)",0.378999583333336
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.114000305555556
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.501999611111115
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",3.05316388888891
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",4.48362997222226
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",5.4178873055556
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",8.28695069444451
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",12.7744406944445
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",17.5038492777779
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",21.5116525000002
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","refined liquids","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",24.8310656388891
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.514266235109171
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",3.59792320521475
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",11.6873305042481
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",22.8025347639149
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",34.6585137943039
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",46.6120053909707
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","solar","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",58.0821275516949
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2005,"Vint_2005","Electricity Generation by Fuel (TWh)",0.0490000000000004
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2010,"Vint_2010","Electricity Generation by Fuel (TWh)",0.0390000000000003
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2015,"Vint_2015","Electricity Generation by Fuel (TWh)",0.0679147222222228
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2020,"Vint_2020","Electricity Generation by Fuel (TWh)",0.938687291666674
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2025,"Vint_2025","Electricity Generation by Fuel (TWh)",2.95222023611113
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2030,"Vint_2030","Electricity Generation by Fuel (TWh)",6.95373340277783
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2035,"Vint_2035","Electricity Generation by Fuel (TWh)",13.322684513889
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2040,"Vint_2040","Electricity Generation by Fuel (TWh)",21.7699597916668
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2045,"Vint_2045","Electricity Generation by Fuel (TWh)",31.7174642638891
+"GCAM_SSP5","Colombia","Colombia","elecByTechTWh","Fuel","wind","Year",2050,"Vint_2050","Electricity Generation by Fuel (TWh)",42.2325030555559
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",1975,"Vint_1975","Population (Millions)",24.066
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",1990,"Vint_1990","Population (Millions)",33.103
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2005,"Vint_2005","Population (Millions)",42.648
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2010,"Vint_2010","Population (Millions)",45.223
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2015,"Vint_2015","Population (Millions)",47.521
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2020,"Vint_2020","Population (Millions)",49.793
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2025,"Vint_2025","Population (Millions)",51.677
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2030,"Vint_2030","Population (Millions)",53.17
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2035,"Vint_2035","Population (Millions)",54.356
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2040,"Vint_2040","Population (Millions)",55.188
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2045,"Vint_2045","Population (Millions)",55.643
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2050,"Vint_2050","Population (Millions)",55.729
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2055,"Vint_2055","Population (Millions)",55.502
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2060,"Vint_2060","Population (Millions)",54.987
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2065,"Vint_2065","Population (Millions)",54.228
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2070,"Vint_2070","Population (Millions)",53.244
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2075,"Vint_2075","Population (Millions)",52.052
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2080,"Vint_2080","Population (Millions)",50.665
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2085,"Vint_2085","Population (Millions)",49.074
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2090,"Vint_2090","Population (Millions)",47.168
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2095,"Vint_2095","Population (Millions)",45.014
+"GCAM_SSP5","Colombia","Colombia","pop","Population","class1","Year",2100,"Vint_2100","Population (Millions)",42.682
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",2.11669568
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.81586612
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",3.78530446
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.69506508
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.59354283
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.85035471
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.04308104
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.2868769
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.6131644
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.9874076
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.4154224
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","agriculture","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.804218
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.1903896
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.1718965
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.3565345
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.5048609
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.6444886
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.8332
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",1.0977654
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",1.418645
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",1.752909
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",2.067851
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","electricity","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",2.369584
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.11031397
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.2125482
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.5481237
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.7591788
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",1.264048
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",1.590809
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",1.985491
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",2.559803
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",3.269979
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",4.015561
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",4.762119
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","industry","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.47584
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.013586913
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.3665869
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.4666707
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.518606
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.521207
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.5694769
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.6200483
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.6781625
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.7386253
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.7920194
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.8355325
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","livestock","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.8694454
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",0.0008833641
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",0.06668186
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",0.08120583
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",0.09209218
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",0.1108176
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",0.1275912
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",0.1329527
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",0.1432729
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",0.156088
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",0.1677052
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",0.1768557
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","mining","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",0.1826561
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1975,"Vint_1975","Water Withdrawal by Sector (km3)",1.4981
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",1990,"Vint_1990","Water Withdrawal by Sector (km3)",2.060702
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2005,"Vint_2005","Water Withdrawal by Sector (km3)",2.883201
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2010,"Vint_2010","Water Withdrawal by Sector (km3)",3.236403
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2015,"Vint_2015","Water Withdrawal by Sector (km3)",3.489997
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2020,"Vint_2020","Water Withdrawal by Sector (km3)",3.761767
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2025,"Vint_2025","Water Withdrawal by Sector (km3)",4.025152
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2030,"Vint_2030","Water Withdrawal by Sector (km3)",4.350904
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2035,"Vint_2035","Water Withdrawal by Sector (km3)",4.705213
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2040,"Vint_2040","Water Withdrawal by Sector (km3)",5.033234
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2045,"Vint_2045","Water Withdrawal by Sector (km3)",5.316751
+"GCAM_SSP5","Colombia","Colombia","watWithdrawBySec","Sector","municipal","Year",2050,"Vint_2050","Water Withdrawal by Sector (km3)",5.549775
