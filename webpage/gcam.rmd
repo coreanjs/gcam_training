@@ -781,15 +781,6 @@ charts$chart_region_absolute
 
 <br>
 
-### chart_waterfall
-
-```{r rchart_examples_waterfall, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
-charts$chart_class_waterfall_Argentina
-charts$chart_class_waterfall_Argentina
-```
-
-<br>
-
 <!-------------------------->
 # Git
 <!-------------------------->
