@@ -1,7 +1,7 @@
 
 <!-- Logos --> 
 <div class="header_logo">
-<img src="images/logo_pnnl_white.png" style="float:right;height:50px;">
+<img src="images/logo_pnnl_white.png" style="float:right;height:40px;">
 </div>
 
 
