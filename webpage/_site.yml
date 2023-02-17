@@ -6,6 +6,9 @@ navbar:
     - text: "GCAM"
       icon: fas fa-book
       href: gcam.html
+    - text: "Courses"
+      icon: fas fa-graduation-cap
+      href: courses.html
     - text: "Disclaimer"
       href: disclaimer.html
     - icon: fab fa-github

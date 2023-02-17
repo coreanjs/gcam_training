@@ -723,9 +723,9 @@ data.frame(
 
 ```{r rchart_examples, echo = TRUE, eval = FALSE, class.source = 'fold-show'}
 # devtools::install_github("JGCRI/rchart") # If needed
-library(rchart)
-
-data <- data.table(url("https://github.com/JGCRI/gcam_training/blob/main/examples/gcamDataTable_aggClass1.csv")) # Read Data
+library(rchart); 
+url <- "https://raw.githubusercontent.com/JGCRI/gcam_training/main/examples/gcamDataTable_aggClass1.csv"
+data <- read.csv(url) # Read Data
 charts <- rchart::chart(data, save=F, scenRef = "GCAM_SSP2") # Plot data
 names(charts) # See list of charts
 
