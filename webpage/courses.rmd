@@ -47,8 +47,8 @@ data.frame(
   Topic = c("Foundations of IAM",
            "Energy System")) %>%
   dplyr::mutate(Speaker = cell_spec(c("Dr. Jae Edmonds", "Dr. Gokul Iyer"),"html",link=lecture_slides)) %>%
-  dplyr::mutate(Video = cell_spec(rep("Link",length(dt_url)),"html",link=lecture_slides)) %>%
-  dplyr::mutate(Slides = cell_spec(rep("Link",length(dt_url)),"html",link=lecture_videos)) %>%
+  dplyr::mutate(Video = cell_spec(rep("Link",length(lecture_slides)),"html",link=lecture_slides)) %>%
+  dplyr::mutate(Slides = cell_spec(rep("Link",length(lecture_videos)),"html",link=lecture_videos)) %>%
   kable("html", escape = FALSE) %>%
   kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
   row_spec(0, background = "#2A2A2A", color = "white")
