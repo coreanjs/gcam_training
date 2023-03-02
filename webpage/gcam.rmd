@@ -721,7 +721,7 @@ data.frame(
 
 `rchart` is an R package which allows users to plot `gcamextractor` outputs into charts with standardized JGCRI colors. Detailed documentation for `rchart` can be found in the [user guide](https://jgcri.github.io/rchart/). Some examples are provided below using example data uploaded to the `gcam_training` repository. Users can extract the data from their own databases using the gcamextractor example shown [above](#gcamextractor). Combining `gcamextractor` and `rchart` you can plot very detailed data in just one line of code.
 
-```{r rchart_examples, echo = TRUE, eval = FALSE, class.source = 'fold-show'}
+```{r rchart_examples, echo = TRUE, eval = FALSE}
 # devtools::install_github("JGCRI/rchart") # If needed
 library(rchart); 
 url <- "https://raw.githubusercontent.com/JGCRI/gcam_training/main/examples/gcamDataTable_aggClass1.csv"
@@ -734,8 +734,9 @@ names(charts) # See list of charts
 Below you can see the outputs for all the different charts produced.
 
 ### chart_param
+<!-- To force show code add ```{r class.source = 'fold-show'} -->
 
-```{r rchart_examples_param, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+```{r rchart_examples_param, echo = TRUE, eval = TRUE, fig.width = 20, fig.height = 10, out.width = "100%",}
 charts$chart_param_Argentina
 charts$chart_param_Colombia
 ```
@@ -744,7 +745,7 @@ charts$chart_param_Colombia
 
 ### chart_param_diff
 
-```{r rchart_examples_param_diff, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+```{r rchart_examples_param_diff, echo = TRUE, eval = TRUE, fig.width = 20, fig.height = 10, out.width = "100%",}
 charts$chart_param_diff_absolute_Argentina
 charts$chart_param_diff_percent_Argentina
 charts$chart_param_diff_absolute_Colombia
@@ -755,7 +756,7 @@ charts$chart_param_diff_percent_Colombia
 
 ### chart_class
 
-```{r rchart_examples_class, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+```{r rchart_examples_class, echo = TRUE, eval = TRUE, fig.width = 20, fig.height = 10, out.width = "100%",}
 charts$chart_class_Argentina
 charts$chart_class_Colombia
 ```
@@ -764,7 +765,7 @@ charts$chart_class_Colombia
 
 ### chart_class_diff
 
-```{r rchart_examples_class_diff, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+```{r rchart_examples_class_diff, echo = TRUE, eval = TRUE, fig.width = 20, fig.height = 10, out.width = "100%",}
 charts$chart_class_diff_absolute_Argentina
 charts$chart_class_diff_percent_Argentina
 charts$chart_class_diff_absolute_Colombia
@@ -775,7 +776,7 @@ charts$chart_class_diff_percent_Colombia
 
 ### chart_region
 
-```{r rchart_examples_region, echo = TRUE, eval = TRUE, class.source = 'fold-show', fig.width = 20, fig.height = 10, out.width = "100%",}
+```{r rchart_examples_region, echo = TRUE, eval = TRUE, fig.width = 20, fig.height = 10, out.width = "100%",}
 charts$chart_region_absolute
 ```
 
