@@ -29,27 +29,51 @@ This course provides an interdisciplinary introduction to integrated assessment 
 
 ## Course Material
 
-```{r gcam5p4 links, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
-library(kableExtra); library(dplyr)
-
-
-lecturer <- c("https://www.pnnl.gov/people/jae-edmonds",
-              "https://www.pnnl.gov/people/gokul-iyer")
-
-lecture_slides <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf",
-                    "https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_walkthrough.pdf")
-
-lecture_videos <- c("https://www.youtube.com/embed/EGxh-MFqRIs?rel=0",
-                    "https://www.youtube.com/embed/EGxh-MFqRIs?rel=0")
-
-data.frame(
-  Topic = c("Foundations of IAM",
-           "Energy System")) %>%
-  dplyr::mutate(Speaker = cell_spec(c("Dr. Jae Edmonds", "Dr. Gokul Iyer"),"html",link=lecture_slides)) %>%
-  dplyr::mutate(Video = cell_spec(rep("Link",length(lecture_slides)),"html",link=lecture_slides)) %>%
-  dplyr::mutate(Slides = cell_spec(rep("Link",length(lecture_videos)),"html",link=lecture_videos)) %>%
-  kable("html", escape = FALSE) %>%
-  kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
-  row_spec(0, background = "#2A2A2A", color = "white")
-```
-
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #2A2A2A; color: white;">
+    <tr>
+      <th style="padding: 8px; text-align: left; width: 20%;">Topic</th>
+      <th style="padding: 8px; text-align: left;">Speaker</th>
+      <th style="padding: 8px; text-align: center;">Video</th>
+      <th style="padding: 8px; text-align: center;">Slides</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; text-align: left;">Foundations of IAM</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/people/jae-edmonds">Dr. Jae Edmonds</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/ShK_EZEzzKg" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+      <tr>
+      <td style="padding: 8px; text-align: left;">Energy System</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/people/gokul-iyer">Dr. Gokul Iyer</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/S-yDOt_pL-c" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+      <tr>
+      <td style="padding: 8px; text-align: left;">Agriculture & Land-Use System</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9612">Dr. Xin Zhao</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/5FmvYMXgTFk" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+      <tr>
+      <td style="padding: 8px; text-align: left;">Water Systems in Integrated Human-Earth System Models</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9930">Dr. Neal Graham</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/0DJFVxsrRi0" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+      <tr>
+      <td style="padding: 8px; text-align: left;">Food-Energy-Water Systems</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9420">Dr. Zarrar Khan</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/JoWatD_RqvU" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+      <tr>
+      <td style="padding: 8px; text-align: left;">IAM in International Climate Policies</td>
+      <td style="padding: 8px; text-align: left;"><a href="https://cgs.umd.edu/our-community/faculty-staff/nathan-hultman">Prof. Nate Hultman</a></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/z_YCbrm4psQ" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
+      <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
+    </tr>
+  </tbody>
+</table>
