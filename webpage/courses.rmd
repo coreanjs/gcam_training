@@ -40,37 +40,37 @@ This course provides an interdisciplinary introduction to integrated assessment 
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 8px; text-align: left;">Foundations of IAM</td>
+      <td style="padding: 8px; text-align: left;">Lecture 1: Foundations of IAM</td>
       <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/people/jae-edmonds">Dr. Jae Edmonds</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/ShK_EZEzzKg" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
     </tr>
       <tr>
-      <td style="padding: 8px; text-align: left;">Energy System</td>
+      <td style="padding: 8px; text-align: left;">Lecture 2: Energy System</td>
       <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/people/gokul-iyer">Dr. Gokul Iyer</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/S-yDOt_pL-c" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
     </tr>
       <tr>
-      <td style="padding: 8px; text-align: left;">Agriculture & Land-Use System</td>
+      <td style="padding: 8px; text-align: left;">Lecture 3: Agriculture & Land-Use System</td>
       <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9612">Dr. Xin Zhao</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/5FmvYMXgTFk" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
     </tr>
       <tr>
-      <td style="padding: 8px; text-align: left;">Water Systems in Integrated Human-Earth System Models</td>
+      <td style="padding: 8px; text-align: left;">Lecture 4: Water Systems in Integrated Human-Earth System Models</td>
       <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9930">Dr. Neal Graham</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/0DJFVxsrRi0" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
     </tr>
       <tr>
-      <td style="padding: 8px; text-align: left;">Food-Energy-Water Systems</td>
+      <td style="padding: 8px; text-align: left;">Lecture 5: Food-Energy-Water Systems</td>
       <td style="padding: 8px; text-align: left;"><a href="https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9420">Dr. Zarrar Khan</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/JoWatD_RqvU" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
     </tr>
       <tr>
-      <td style="padding: 8px; text-align: left;">IAM in International Climate Policies</td>
+      <td style="padding: 8px; text-align: left;">Lecture 6: IAM in International Climate Policies</td>
       <td style="padding: 8px; text-align: left;"><a href="https://cgs.umd.edu/our-community/faculty-staff/nathan-hultman">Prof. Nate Hultman</a></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><iframe width="280" height="157" src="https://www.youtube.com/embed/z_YCbrm4psQ" frameborder="0" allowfullscreen style="vertical-align: middle;"></iframe></td>
       <td style="padding: 8px; text-align: center; vertical-align: middle;"><a href="https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam5p4_overview.pdf">Link</a></td>
