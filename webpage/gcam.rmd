@@ -60,7 +60,7 @@ dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam
 
 data.frame(
   File = c("gcam6p0_walkthrough.pdf"),
-  Description = c("GCAM 6.0 walkthrough presentation")) %>%
+  Description = c("GCAM 6.0 walkthrough presentation (how to run GCAM)")) %>%
   dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
   kable("html", escape = FALSE) %>%
   kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
@@ -82,6 +82,12 @@ data.frame(
 </div>
 
 <br>
+
+```{r echo=FALSE}
+# # a single file
+# xfun::embed_file('presentations/GCAM_tutorial_2022_plp_0060423.pptx')
+
+```
 
 ## GCAM 5.4
 ***
@@ -126,6 +132,20 @@ data.frame(
 <!-------------------------->
 ***
 
+```{r gcamdata links, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_annual_meeting_2023_trainings/gcamdata.pdf")
+
+data.frame(
+  File = c("gcamdata.pdf"),
+  Description = c("Introduction to gcamdata (GCAM's data system), including R package management with renv")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
 <div class="video_box">
 <figure>
   <figcaption>gcamdata renv</figcaption>
@@ -150,6 +170,33 @@ data.frame(
 ```{r, echo=FALSE, out.width="60%", fig.align='center'}
 knitr::include_graphics("images/gcam_software_map.jpg")
 ```
+</p>
+
+<br>
+
+## Other resources
+***
+```{r other links, results = 'show', eval=TRUE, echo=FALSE, warning=FALSE, error = FALSE, message = FALSE}
+library(kableExtra); library(dplyr)
+
+dt_url <- c("https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_annual_meeting_2023_trainings/scenario_adjustment.pdf",
+            "https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_annual_meeting_2023_trainings/create_xmls_user_mod.pdf",
+            "https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_annual_meeting_2023_trainings/GCAM-USA.pdf",
+            "https://github.com/JGCRI/gcam_training/blob/main/presentations/gcam_annual_meeting_2023_trainings/querying_GCAM_outputs.pdf")
+
+data.frame(
+  File = c("scenario_adjustment.pdf", "create_xmls_user_mod.pdf",
+           "GCAM-USA.pdf", "querying_GCAM_outputs.pdf"),
+  Description = c("Guide to designing and implementing scenarios in GCAM",
+                  "Guide to modifying GCAM's XML inputs, creating new XMLs, and using user modification functions in gcamdata",
+                  "Introduction to GCAM-USA",
+                  "Guide to querying GCAM outputs using Model Interface and rgcam")) %>%
+  dplyr::mutate(Location = cell_spec(rep("Link",length(dt_url)),"html",link=dt_url)) %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("bordered","striped", "hover", "condensed", "responsive")) %>%
+  row_spec(0, background = "#2A2A2A", color = "white")
+```
+
 </p>
 
 <br>
